@@ -38,6 +38,9 @@
 		3F58CFBF1738FB9500AF7A1D /* SSPPlistObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPlistObject.m; sourceTree = "<group>"; };
 		3F58CFE81739042D00AF7A1D /* UIImage+Resizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizing.h"; sourceTree = "<group>"; };
 		3F58CFE91739042D00AF7A1D /* UIImage+Resizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizing.m"; sourceTree = "<group>"; };
+		3F58D062173A2C8600AF7A1D /* UIView+Placeholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Placeholder.h"; sourceTree = "<group>"; };
+		3F58D063173A2C8600AF7A1D /* UIView+Placeholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Placeholder.m"; sourceTree = "<group>"; };
+		3F58D064173A2C8C00AF7A1D /* Singletone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singletone.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 				3F58CFE71739042D00AF7A1D /* Categories */,
 				3F58CFBE1738FB9500AF7A1D /* SSPPlistObject.h */,
 				3F58CFBF1738FB9500AF7A1D /* SSPPlistObject.m */,
+				3F58D064173A2C8C00AF7A1D /* Singletone.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -121,6 +125,8 @@
 			children = (
 				3F58CFE81739042D00AF7A1D /* UIImage+Resizing.h */,
 				3F58CFE91739042D00AF7A1D /* UIImage+Resizing.m */,
+				3F58D062173A2C8600AF7A1D /* UIView+Placeholder.h */,
+				3F58D063173A2C8600AF7A1D /* UIView+Placeholder.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
