@@ -16,8 +16,10 @@
 		3F58CF9C1738FAFA00AF7A1D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F58CF9B1738FAFA00AF7A1D /* Default.png */; };
 		3F58CF9E1738FAFA00AF7A1D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F58CF9D1738FAFA00AF7A1D /* Default@2x.png */; };
 		3F58CFA01738FAFA00AF7A1D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F58CF9F1738FAFA00AF7A1D /* Default-568h@2x.png */; };
-		3F58CFC01738FB9500AF7A1D /* SSPPlistObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58CFBF1738FB9500AF7A1D /* SSPPlistObject.m */; };
-		3F58CFEA1739042D00AF7A1D /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58CFE91739042D00AF7A1D /* UIImage+Resizing.m */; };
+		3F75D3FD1744B4B000F2DB60 /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F01744B4B000F2DB60 /* UIImage+Resizing.m */; };
+		3F75D3FE1744B4B000F2DB60 /* UIView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F21744B4B000F2DB60 /* UIView+Placeholder.m */; };
+		3F75D3FF1744B4B000F2DB60 /* SSPPlistObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F81744B4B000F2DB60 /* SSPPlistObject.m */; };
+		3F75D4001744B4B000F2DB60 /* BasePopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3FB1744B4B000F2DB60 /* BasePopupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,13 +36,19 @@
 		3F58CF9B1738FAFA00AF7A1D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3F58CF9D1738FAFA00AF7A1D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3F58CF9F1738FAFA00AF7A1D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3F58CFBE1738FB9500AF7A1D /* SSPPlistObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPPlistObject.h; sourceTree = "<group>"; };
-		3F58CFBF1738FB9500AF7A1D /* SSPPlistObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPlistObject.m; sourceTree = "<group>"; };
-		3F58CFE81739042D00AF7A1D /* UIImage+Resizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizing.h"; sourceTree = "<group>"; };
-		3F58CFE91739042D00AF7A1D /* UIImage+Resizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizing.m"; sourceTree = "<group>"; };
-		3F58D062173A2C8600AF7A1D /* UIView+Placeholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Placeholder.h"; sourceTree = "<group>"; };
-		3F58D063173A2C8600AF7A1D /* UIView+Placeholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Placeholder.m"; sourceTree = "<group>"; };
-		3F58D064173A2C8C00AF7A1D /* Singletone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singletone.h; sourceTree = "<group>"; };
+		3F75D3EF1744B4B000F2DB60 /* UIImage+Resizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizing.h"; sourceTree = "<group>"; };
+		3F75D3F01744B4B000F2DB60 /* UIImage+Resizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizing.m"; sourceTree = "<group>"; };
+		3F75D3F11744B4B000F2DB60 /* UIView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Placeholder.h"; sourceTree = "<group>"; };
+		3F75D3F21744B4B000F2DB60 /* UIView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Placeholder.m"; sourceTree = "<group>"; };
+		3F75D3F41744B4B000F2DB60 /* AbstractMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMethod.h; sourceTree = "<group>"; };
+		3F75D3F51744B4B000F2DB60 /* DBGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGLog.h; sourceTree = "<group>"; };
+		3F75D3F61744B4B000F2DB60 /* Singletone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singletone.h; sourceTree = "<group>"; };
+		3F75D3F71744B4B000F2DB60 /* SSPPlistObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPPlistObject.h; sourceTree = "<group>"; };
+		3F75D3F81744B4B000F2DB60 /* SSPPlistObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPlistObject.m; sourceTree = "<group>"; };
+		3F75D3FA1744B4B000F2DB60 /* BasePopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePopupViewController.h; sourceTree = "<group>"; };
+		3F75D3FB1744B4B000F2DB60 /* BasePopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePopupViewController.m; sourceTree = "<group>"; };
+		3F75D3FC1744B4B000F2DB60 /* PopupContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupContentController.h; sourceTree = "<group>"; };
+		3F75D4011744B55100F2DB60 /* Macroses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macroses.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +95,7 @@
 		3F58CF8F1738FAFA00AF7A1D /* SSPKit */ = {
 			isa = PBXGroup;
 			children = (
-				3F58CFBD1738FB9500AF7A1D /* Classes */,
+				3F75D3ED1744B4B000F2DB60 /* Classes */,
 				3F58CF981738FAFA00AF7A1D /* SSPAppDelegate.h */,
 				3F58CF991738FAFA00AF7A1D /* SSPAppDelegate.m */,
 				3F58CF901738FAFA00AF7A1D /* Supporting Files */,
@@ -109,26 +117,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3F58CFBD1738FB9500AF7A1D /* Classes */ = {
+		3F75D3ED1744B4B000F2DB60 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3F58CFE71739042D00AF7A1D /* Categories */,
-				3F58CFBE1738FB9500AF7A1D /* SSPPlistObject.h */,
-				3F58CFBF1738FB9500AF7A1D /* SSPPlistObject.m */,
-				3F58D064173A2C8C00AF7A1D /* Singletone.h */,
+				3F75D3EE1744B4B000F2DB60 /* Categories */,
+				3F75D3F31744B4B000F2DB60 /* Macroses */,
+				3F75D3F71744B4B000F2DB60 /* SSPPlistObject.h */,
+				3F75D3F81744B4B000F2DB60 /* SSPPlistObject.m */,
+				3F75D3F91744B4B000F2DB60 /* ViewControllers */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		3F58CFE71739042D00AF7A1D /* Categories */ = {
+		3F75D3EE1744B4B000F2DB60 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				3F58CFE81739042D00AF7A1D /* UIImage+Resizing.h */,
-				3F58CFE91739042D00AF7A1D /* UIImage+Resizing.m */,
-				3F58D062173A2C8600AF7A1D /* UIView+Placeholder.h */,
-				3F58D063173A2C8600AF7A1D /* UIView+Placeholder.m */,
+				3F75D3EF1744B4B000F2DB60 /* UIImage+Resizing.h */,
+				3F75D3F01744B4B000F2DB60 /* UIImage+Resizing.m */,
+				3F75D3F11744B4B000F2DB60 /* UIView+Placeholder.h */,
+				3F75D3F21744B4B000F2DB60 /* UIView+Placeholder.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		3F75D3F31744B4B000F2DB60 /* Macroses */ = {
+			isa = PBXGroup;
+			children = (
+				3F75D3F41744B4B000F2DB60 /* AbstractMethod.h */,
+				3F75D3F51744B4B000F2DB60 /* DBGLog.h */,
+				3F75D3F61744B4B000F2DB60 /* Singletone.h */,
+				3F75D4011744B55100F2DB60 /* Macroses.h */,
+			);
+			path = Macroses;
+			sourceTree = "<group>";
+		};
+		3F75D3F91744B4B000F2DB60 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F75D3FA1744B4B000F2DB60 /* BasePopupViewController.h */,
+				3F75D3FB1744B4B000F2DB60 /* BasePopupViewController.m */,
+				3F75D3FC1744B4B000F2DB60 /* PopupContentController.h */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +229,10 @@
 			files = (
 				3F58CF961738FAFA00AF7A1D /* main.m in Sources */,
 				3F58CF9A1738FAFA00AF7A1D /* SSPAppDelegate.m in Sources */,
-				3F58CFC01738FB9500AF7A1D /* SSPPlistObject.m in Sources */,
-				3F58CFEA1739042D00AF7A1D /* UIImage+Resizing.m in Sources */,
+				3F75D3FD1744B4B000F2DB60 /* UIImage+Resizing.m in Sources */,
+				3F75D3FE1744B4B000F2DB60 /* UIView+Placeholder.m in Sources */,
+				3F75D3FF1744B4B000F2DB60 /* SSPPlistObject.m in Sources */,
+				3F75D4001744B4B000F2DB60 /* BasePopupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
