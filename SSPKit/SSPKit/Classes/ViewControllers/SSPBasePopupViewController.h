@@ -13,6 +13,9 @@
 @property (nonatomic, strong) UIViewController *contentVC;
 @property (nonatomic, readonly) BOOL popupVisible;
 
+@property (nonatomic, copy) void(^onPopupDidDismissCallback)(void);
+@property (nonatomic, copy) void(^onPopupWillDismissCallback)(void);
+
 - (void)presentPopupInViewController:(UIViewController *)viewController animated:(BOOL)animated;
 - (void)dismissPopupAnimated:(BOOL)animated;
 

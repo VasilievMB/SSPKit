@@ -77,6 +77,9 @@
 }
 
 - (void)dismissPopupAnimated:(BOOL)animated {
+    if (self.onPopupWillDismissCallback) {
+        self.onPopupWillDismissCallback();
+    }
     BOOL implementPopupContentController = [[self currentViewController] conformsToProtocol:@protocol(PopupContentController)];
     if (implementPopupContentController && [[self contentNavigationController] respondsToSelector:@selector(popupViewController:willDiswissAnimated:)]) {
         [((id <PopupContentController>)[self currentViewController]) popupViewController:self willDiswissAnimated:animated];
@@ -90,6 +93,10 @@
         
         if (implementPopupContentController && [[self contentNavigationController] respondsToSelector:@selector(popupViewController:didDiswissAnimated::)]) {
             [((id <PopupContentController>)[self currentViewController]) popupViewController:self didDiswissAnimated:animated];
+        }
+        
+        if (self.onPopupDidDismissCallback) {
+            self.onPopupDidDismissCallback();
         }
     };
     
