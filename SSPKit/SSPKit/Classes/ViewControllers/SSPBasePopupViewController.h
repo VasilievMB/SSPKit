@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BasePopupViewController : UIViewController
+@interface SSPBasePopupViewController : UIViewController
 
 @property (nonatomic, strong) UIViewController *contentVC;
 @property (nonatomic, readonly) BOOL popupVisible;

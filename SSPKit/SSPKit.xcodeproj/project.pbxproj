@@ -19,7 +19,7 @@
 		3F75D3FD1744B4B000F2DB60 /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F01744B4B000F2DB60 /* UIImage+Resizing.m */; };
 		3F75D3FE1744B4B000F2DB60 /* UIView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F21744B4B000F2DB60 /* UIView+Placeholder.m */; };
 		3F75D3FF1744B4B000F2DB60 /* SSPPlistObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F81744B4B000F2DB60 /* SSPPlistObject.m */; };
-		3F75D4001744B4B000F2DB60 /* BasePopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3FB1744B4B000F2DB60 /* BasePopupViewController.m */; };
+		3F75D4001744B4B000F2DB60 /* SSPBasePopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3FB1744B4B000F2DB60 /* SSPBasePopupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,8 +45,8 @@
 		3F75D3F61744B4B000F2DB60 /* Singletone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singletone.h; sourceTree = "<group>"; };
 		3F75D3F71744B4B000F2DB60 /* SSPPlistObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPPlistObject.h; sourceTree = "<group>"; };
 		3F75D3F81744B4B000F2DB60 /* SSPPlistObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPlistObject.m; sourceTree = "<group>"; };
-		3F75D3FA1744B4B000F2DB60 /* BasePopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePopupViewController.h; sourceTree = "<group>"; };
-		3F75D3FB1744B4B000F2DB60 /* BasePopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePopupViewController.m; sourceTree = "<group>"; };
+		3F75D3FA1744B4B000F2DB60 /* SSPBasePopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPBasePopupViewController.h; sourceTree = "<group>"; };
+		3F75D3FB1744B4B000F2DB60 /* SSPBasePopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPBasePopupViewController.m; sourceTree = "<group>"; };
 		3F75D3FC1744B4B000F2DB60 /* PopupContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupContentController.h; sourceTree = "<group>"; };
 		3F75D4011744B55100F2DB60 /* Macroses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macroses.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,8 +154,8 @@
 		3F75D3F91744B4B000F2DB60 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3F75D3FA1744B4B000F2DB60 /* BasePopupViewController.h */,
-				3F75D3FB1744B4B000F2DB60 /* BasePopupViewController.m */,
+				3F75D3FA1744B4B000F2DB60 /* SSPBasePopupViewController.h */,
+				3F75D3FB1744B4B000F2DB60 /* SSPBasePopupViewController.m */,
 				3F75D3FC1744B4B000F2DB60 /* PopupContentController.h */,
 			);
 			path = ViewControllers;
@@ -232,7 +232,7 @@
 				3F75D3FD1744B4B000F2DB60 /* UIImage+Resizing.m in Sources */,
 				3F75D3FE1744B4B000F2DB60 /* UIView+Placeholder.m in Sources */,
 				3F75D3FF1744B4B000F2DB60 /* SSPPlistObject.m in Sources */,
-				3F75D4001744B4B000F2DB60 /* BasePopupViewController.m in Sources */,
+				3F75D4001744B4B000F2DB60 /* SSPBasePopupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,17 +6,17 @@
 //
 //
 
-#import "BasePopupViewController.h"
+#import "SSPBasePopupViewController.h"
 #import "AbstractMethod.h"
 #import "PopupContentController.h"
 
-@interface BasePopupViewController ()
+@interface SSPBasePopupViewController ()
 
 @property (nonatomic) BOOL popupVisible;
 
 @end
 
-@implementation BasePopupViewController
+@implementation SSPBasePopupViewController
 
 + (NSTimeInterval)animationDuration {
     return 0.3;

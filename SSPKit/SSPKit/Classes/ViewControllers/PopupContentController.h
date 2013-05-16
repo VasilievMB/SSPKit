@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@class BasePopupViewController;
+@class SSPBasePopupViewController;
 
 @protocol PopupContentController <NSObject>
 
 @optional
-- (void)popupViewController:(BasePopupViewController *)popupViewController willDiswissAnimated:(BOOL)animated;
-- (void)popupViewController:(BasePopupViewController *)popupViewController didDiswissAnimated:(BOOL)animated;
+- (void)popupViewController:(SSPBasePopupViewController *)popupViewController willDiswissAnimated:(BOOL)animated;
+- (void)popupViewController:(SSPBasePopupViewController *)popupViewController didDiswissAnimated:(BOOL)animated;
 
 @end
