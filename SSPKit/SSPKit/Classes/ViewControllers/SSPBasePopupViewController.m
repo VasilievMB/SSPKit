@@ -55,6 +55,8 @@
 }
 
 - (void)presentPopupInViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    [viewController addChildViewController:self];
+    
     self.popupVisible = YES;
     
     [viewController.view addSubview:self.view];
@@ -98,6 +100,8 @@
         if (self.onPopupDidDismissCallback) {
             self.onPopupDidDismissCallback();
         }
+        
+        [self removeFromParentViewController];
     };
     
     if (animated) {
