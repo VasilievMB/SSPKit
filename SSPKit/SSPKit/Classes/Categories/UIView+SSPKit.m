@@ -1,14 +1,14 @@
 //
 //  UIView+Placeholder.m
-//  Converter
+//  SSPKit
 //
 //  Created by Vasiljev M.B. on 2/12/13.
-//
+//  Copyright (c) 2013 Softinform. All rights reserved.
 //
 
-#import "UIView+Placeholder.h"
+#import "UIView+SSPKit.h"
 
-@implementation UIView (Placeholder)
+@implementation UIView (SSPKit)
 
 + (id)view {
     return [self viewWithNibNamed:NSStringFromClass(self)];

@@ -1,9 +1,9 @@
 //
 //  UIImage+Resizing.m
-//  MoPals
+//  SSPKit
 //
 //  Created by Vasiljev M.B. on 2/19/13.
-//  Copyright (c) 2013 Dirsha A.A. All rights reserved.
+//  Copyright (c) 2013 Softinform. All rights reserved.
 //
 
 #import "UIImage+Resizing.h"

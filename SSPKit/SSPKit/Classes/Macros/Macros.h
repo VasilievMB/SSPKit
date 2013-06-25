@@ -7,5 +7,5 @@
 //
 
 #import "DBGLog.h"
-#import "Singletone.h"
+#import "Singleton.h"
 #import "AbstractMethod.h"

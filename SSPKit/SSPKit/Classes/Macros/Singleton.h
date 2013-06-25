@@ -1,9 +1,9 @@
 //
-//  Singletone.h
-//  PhotoStrike
+//  Singleton.h
+//  SSPKit
 //
 //  Created by Vasiljev M.B. on 1/13/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2013 Softinform. All rights reserved.
 //
 
 #define DEFINE_SHARED_INSTANCE_USING_BLOCK(block) \

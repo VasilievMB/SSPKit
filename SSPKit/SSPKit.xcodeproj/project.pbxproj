@@ -17,9 +17,10 @@
 		3F58CF9E1738FAFA00AF7A1D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F58CF9D1738FAFA00AF7A1D /* Default@2x.png */; };
 		3F58CFA01738FAFA00AF7A1D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F58CF9F1738FAFA00AF7A1D /* Default-568h@2x.png */; };
 		3F75D3FD1744B4B000F2DB60 /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F01744B4B000F2DB60 /* UIImage+Resizing.m */; };
-		3F75D3FE1744B4B000F2DB60 /* UIView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F21744B4B000F2DB60 /* UIView+Placeholder.m */; };
+		3F75D3FE1744B4B000F2DB60 /* UIView+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F21744B4B000F2DB60 /* UIView+SSPKit.m */; };
 		3F75D3FF1744B4B000F2DB60 /* SSPPlistObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F81744B4B000F2DB60 /* SSPPlistObject.m */; };
 		3F75D4001744B4B000F2DB60 /* SSPBasePopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3FB1744B4B000F2DB60 /* SSPBasePopupViewController.m */; };
+		F65C64BC1779928E001BB8A2 /* UITableViewCell+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C64BB1779928E001BB8A2 /* UITableViewCell+SSPKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,17 +39,19 @@
 		3F58CF9F1738FAFA00AF7A1D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3F75D3EF1744B4B000F2DB60 /* UIImage+Resizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizing.h"; sourceTree = "<group>"; };
 		3F75D3F01744B4B000F2DB60 /* UIImage+Resizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizing.m"; sourceTree = "<group>"; };
-		3F75D3F11744B4B000F2DB60 /* UIView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Placeholder.h"; sourceTree = "<group>"; };
-		3F75D3F21744B4B000F2DB60 /* UIView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Placeholder.m"; sourceTree = "<group>"; };
-		3F75D3F41744B4B000F2DB60 /* AbstractMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMethod.h; sourceTree = "<group>"; };
-		3F75D3F51744B4B000F2DB60 /* DBGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGLog.h; sourceTree = "<group>"; };
-		3F75D3F61744B4B000F2DB60 /* Singletone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singletone.h; sourceTree = "<group>"; };
+		3F75D3F11744B4B000F2DB60 /* UIView+SSPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SSPKit.h"; sourceTree = "<group>"; };
+		3F75D3F21744B4B000F2DB60 /* UIView+SSPKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SSPKit.m"; sourceTree = "<group>"; };
 		3F75D3F71744B4B000F2DB60 /* SSPPlistObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPPlistObject.h; sourceTree = "<group>"; };
 		3F75D3F81744B4B000F2DB60 /* SSPPlistObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPlistObject.m; sourceTree = "<group>"; };
 		3F75D3FA1744B4B000F2DB60 /* SSPBasePopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPBasePopupViewController.h; sourceTree = "<group>"; };
 		3F75D3FB1744B4B000F2DB60 /* SSPBasePopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPBasePopupViewController.m; sourceTree = "<group>"; };
 		3F75D3FC1744B4B000F2DB60 /* PopupContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupContentController.h; sourceTree = "<group>"; };
-		3F75D4011744B55100F2DB60 /* Macroses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macroses.h; sourceTree = "<group>"; };
+		F65C64B6177990B9001BB8A2 /* AbstractMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMethod.h; sourceTree = "<group>"; };
+		F65C64B7177990B9001BB8A2 /* DBGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGLog.h; sourceTree = "<group>"; };
+		F65C64B8177990B9001BB8A2 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		F65C64B9177990B9001BB8A2 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		F65C64BA1779928E001BB8A2 /* UITableViewCell+SSPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SSPKit.h"; sourceTree = "<group>"; };
+		F65C64BB1779928E001BB8A2 /* UITableViewCell+SSPKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SSPKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				3F75D3EE1744B4B000F2DB60 /* Categories */,
-				3F75D3F31744B4B000F2DB60 /* Macroses */,
+				F65C64B5177990B9001BB8A2 /* Macros */,
 				3F75D3F71744B4B000F2DB60 /* SSPPlistObject.h */,
 				3F75D3F81744B4B000F2DB60 /* SSPPlistObject.m */,
 				3F75D3F91744B4B000F2DB60 /* ViewControllers */,
@@ -134,21 +137,12 @@
 			children = (
 				3F75D3EF1744B4B000F2DB60 /* UIImage+Resizing.h */,
 				3F75D3F01744B4B000F2DB60 /* UIImage+Resizing.m */,
-				3F75D3F11744B4B000F2DB60 /* UIView+Placeholder.h */,
-				3F75D3F21744B4B000F2DB60 /* UIView+Placeholder.m */,
+				3F75D3F11744B4B000F2DB60 /* UIView+SSPKit.h */,
+				3F75D3F21744B4B000F2DB60 /* UIView+SSPKit.m */,
+				F65C64BA1779928E001BB8A2 /* UITableViewCell+SSPKit.h */,
+				F65C64BB1779928E001BB8A2 /* UITableViewCell+SSPKit.m */,
 			);
 			path = Categories;
-			sourceTree = "<group>";
-		};
-		3F75D3F31744B4B000F2DB60 /* Macroses */ = {
-			isa = PBXGroup;
-			children = (
-				3F75D3F41744B4B000F2DB60 /* AbstractMethod.h */,
-				3F75D3F51744B4B000F2DB60 /* DBGLog.h */,
-				3F75D3F61744B4B000F2DB60 /* Singletone.h */,
-				3F75D4011744B55100F2DB60 /* Macroses.h */,
-			);
-			path = Macroses;
 			sourceTree = "<group>";
 		};
 		3F75D3F91744B4B000F2DB60 /* ViewControllers */ = {
@@ -159,6 +153,17 @@
 				3F75D3FC1744B4B000F2DB60 /* PopupContentController.h */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F65C64B5177990B9001BB8A2 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				F65C64B6177990B9001BB8A2 /* AbstractMethod.h */,
+				F65C64B7177990B9001BB8A2 /* DBGLog.h */,
+				F65C64B8177990B9001BB8A2 /* Macros.h */,
+				F65C64B9177990B9001BB8A2 /* Singleton.h */,
+			);
+			path = Macros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +235,10 @@
 				3F58CF961738FAFA00AF7A1D /* main.m in Sources */,
 				3F58CF9A1738FAFA00AF7A1D /* SSPAppDelegate.m in Sources */,
 				3F75D3FD1744B4B000F2DB60 /* UIImage+Resizing.m in Sources */,
-				3F75D3FE1744B4B000F2DB60 /* UIView+Placeholder.m in Sources */,
+				3F75D3FE1744B4B000F2DB60 /* UIView+SSPKit.m in Sources */,
 				3F75D3FF1744B4B000F2DB60 /* SSPPlistObject.m in Sources */,
 				3F75D4001744B4B000F2DB60 /* SSPBasePopupViewController.m in Sources */,
+				F65C64BC1779928E001BB8A2 /* UITableViewCell+SSPKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

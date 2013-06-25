@@ -1,9 +1,9 @@
 //
 //  BasePopupViewController.h
-//  PuzzleGame
+//  SSPKit
 //
 //  Created by Dirsha A.A. on 15.05.13.
-//
+//  Copyright (c) 2013 Softinform. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

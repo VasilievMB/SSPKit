@@ -1,9 +1,9 @@
 //
 //  PlistObject.m
-//  LoveDrawingAnimals
+//  SSPKit
 //
 //  Created by Vasiljev M.B. on 4/12/13.
-//
+//  Copyright (c) 2013 Softinform. All rights reserved.
 //
 
 #import "SSPPlistObject.h"

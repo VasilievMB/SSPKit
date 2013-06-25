@@ -1,16 +1,14 @@
 //
 //  UIView+Placeholder.h
-//  Converter
+//  SSPKit
 //
 //  Created by Vasiljev M.B. on 2/12/13.
-//
+//  Copyright (c) 2013 Softinform. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-// TODO: rename category
-
-@interface UIView (Placeholder)
+@interface UIView (SSPKit)
 
 + (id)view;
 + (id)viewWithNibNamed:(NSString *)nibName;
