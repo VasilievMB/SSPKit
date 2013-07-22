@@ -21,6 +21,7 @@
 		3F75D3FF1744B4B000F2DB60 /* SSPPlistObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F81744B4B000F2DB60 /* SSPPlistObject.m */; };
 		3F75D4001744B4B000F2DB60 /* SSPBasePopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3FB1744B4B000F2DB60 /* SSPBasePopupViewController.m */; };
 		F65C64BC1779928E001BB8A2 /* UITableViewCell+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C64BB1779928E001BB8A2 /* UITableViewCell+SSPKit.m */; };
+		F6CDDB32179D233A00B01CBC /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CDDB31179D233A00B01CBC /* UIViewController+Storyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		F65C64B9177990B9001BB8A2 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		F65C64BA1779928E001BB8A2 /* UITableViewCell+SSPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SSPKit.h"; sourceTree = "<group>"; };
 		F65C64BB1779928E001BB8A2 /* UITableViewCell+SSPKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SSPKit.m"; sourceTree = "<group>"; };
+		F6CDDB30179D233A00B01CBC /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
+		F6CDDB31179D233A00B01CBC /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				3F75D3F01744B4B000F2DB60 /* UIImage+Resizing.m */,
 				3F75D3F11744B4B000F2DB60 /* UIView+SSPKit.h */,
 				3F75D3F21744B4B000F2DB60 /* UIView+SSPKit.m */,
+				F6CDDB30179D233A00B01CBC /* UIViewController+Storyboard.h */,
+				F6CDDB31179D233A00B01CBC /* UIViewController+Storyboard.m */,
 				F65C64BA1779928E001BB8A2 /* UITableViewCell+SSPKit.h */,
 				F65C64BB1779928E001BB8A2 /* UITableViewCell+SSPKit.m */,
 			);
@@ -239,6 +244,7 @@
 				3F75D3FF1744B4B000F2DB60 /* SSPPlistObject.m in Sources */,
 				3F75D4001744B4B000F2DB60 /* SSPBasePopupViewController.m in Sources */,
 				F65C64BC1779928E001BB8A2 /* UITableViewCell+SSPKit.m in Sources */,
+				F6CDDB32179D233A00B01CBC /* UIViewController+Storyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
