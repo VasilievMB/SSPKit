@@ -14,5 +14,6 @@
 + (id)cell;
 + (CGFloat)defaultHeight;
 + (NSString *)reuseIdentifier;
++ (UINib *)nib;
 
 @end

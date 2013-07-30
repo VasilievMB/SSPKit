@@ -29,4 +29,8 @@
     return NSStringFromClass(self);
 }
 
++ (UINib *)nib {
+    return [UINib nibWithNibName:NSStringFromClass([self class]) bundle:nil];
+}
+
 @end
