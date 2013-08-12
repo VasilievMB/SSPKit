@@ -48,6 +48,8 @@
 		3F75D3FA1744B4B000F2DB60 /* SSPBasePopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPBasePopupViewController.h; sourceTree = "<group>"; };
 		3F75D3FB1744B4B000F2DB60 /* SSPBasePopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPBasePopupViewController.m; sourceTree = "<group>"; };
 		3F75D3FC1744B4B000F2DB60 /* PopupContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupContentController.h; sourceTree = "<group>"; };
+		5539DBAC17B8846F0007D408 /* NSAttributedString+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Additions.h"; sourceTree = "<group>"; };
+		5539DBAD17B8846F0007D408 /* NSAttributedString+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Additions.m"; sourceTree = "<group>"; };
 		F6134C1117A7AB5F00264D3C /* UITableView+SSPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SSPKit.h"; sourceTree = "<group>"; };
 		F6134C1217A7AB5F00264D3C /* UITableView+SSPKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SSPKit.m"; sourceTree = "<group>"; };
 		F65C64B6177990B9001BB8A2 /* AbstractMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMethod.h; sourceTree = "<group>"; };
@@ -141,6 +143,8 @@
 		3F75D3EE1744B4B000F2DB60 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				5539DBAC17B8846F0007D408 /* NSAttributedString+Additions.h */,
+				5539DBAD17B8846F0007D408 /* NSAttributedString+Additions.m */,
 				3F75D3EF1744B4B000F2DB60 /* UIImage+Resizing.h */,
 				3F75D3F01744B4B000F2DB60 /* UIImage+Resizing.m */,
 				3F75D3F11744B4B000F2DB60 /* UIView+SSPKit.h */,
