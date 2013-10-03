@@ -121,4 +121,12 @@
     return [[self dictionary] objectForKey:@(ID)];
 }
 
++ (id)selectWithIDs:(NSArray *)IDs{
+    NSMutableArray *result = [NSMutableArray arrayWithCapacity:[IDs count]];
+    for (NSNumber *ID in IDs ) {
+        [result addObject:[self selectWithID:[ID integerValue]]];
+    }
+    return [result copy];
+}
+
 @end

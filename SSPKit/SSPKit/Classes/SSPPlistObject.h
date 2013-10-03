@@ -22,6 +22,7 @@
 - (id)initWithDictionary:(NSDictionary *)dictionary;
 
 + (id)selectWithID:(NSUInteger)ID;
++ (id)selectWithIDs:(NSArray *)IDs;
 
 + (NSArray *)fields;
 + (NSString *)key;
