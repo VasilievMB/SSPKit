@@ -83,8 +83,8 @@
         self.onPopupWillDismissCallback();
     }
     BOOL implementPopupContentController = [[self currentViewController] conformsToProtocol:@protocol(PopupContentController)];
-    if (implementPopupContentController && [[self contentNavigationController] respondsToSelector:@selector(popupViewController:willDiswissAnimated:)]) {
-        [((id <PopupContentController>)[self currentViewController]) popupViewController:self willDiswissAnimated:animated];
+    if (implementPopupContentController && [[self contentNavigationController] respondsToSelector:@selector(popupViewController:willDismissAnimated:)]) {
+        [((id <PopupContentController>)[self currentViewController]) popupViewController:self willDismissAnimated:animated];
     }
     
     self.popupVisible = NO;
@@ -93,8 +93,8 @@
         [self.view removeFromSuperview];
         self.view.alpha = 1.f;
         
-        if (implementPopupContentController && [[self contentNavigationController] respondsToSelector:@selector(popupViewController:didDiswissAnimated::)]) {
-            [((id <PopupContentController>)[self currentViewController]) popupViewController:self didDiswissAnimated:animated];
+        if (implementPopupContentController && [[self contentNavigationController] respondsToSelector:@selector(popupViewController:didDismissAnimated:)]) {
+            [((id <PopupContentController>)[self currentViewController]) popupViewController:self didDismissAnimated:animated];
         }
         
         if (self.onPopupDidDismissCallback) {

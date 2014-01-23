@@ -13,7 +13,7 @@
 @protocol PopupContentController <NSObject>
 
 @optional
-- (void)popupViewController:(SSPBasePopupViewController *)popupViewController willDiswissAnimated:(BOOL)animated;
-- (void)popupViewController:(SSPBasePopupViewController *)popupViewController didDiswissAnimated:(BOOL)animated;
+- (void)popupViewController:(SSPBasePopupViewController *)popupViewController willDismissAnimated:(BOOL)animated;
+- (void)popupViewController:(SSPBasePopupViewController *)popupViewController didDismissAnimated:(BOOL)animated;
 
 @end
