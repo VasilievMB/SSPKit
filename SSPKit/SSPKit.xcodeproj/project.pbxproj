@@ -25,6 +25,8 @@
 		5C2075131B7DC31C00F6278E /* NSDictionary+SSPParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075121B7DC31C00F6278E /* NSDictionary+SSPParsing.m */; };
 		5C20751D1B7DE1D100F6278E /* SSPKit_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20751C1B7DE1D100F6278E /* SSPKit_Tests.m */; };
 		5C2075241B7DE3E700F6278E /* SSPParsingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075231B7DE3E700F6278E /* SSPParsingTest.m */; };
+		5C2075261B7DEA6B00F6278E /* SSPPlistTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075251B7DEA6B00F6278E /* SSPPlistTest.m */; };
+		5C2075281B7DEA9600F6278E /* TestObjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C2075271B7DEA9600F6278E /* TestObjects.plist */; };
 		F65C64BC1779928E001BB8A2 /* UITableViewCell+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C64BB1779928E001BB8A2 /* UITableViewCell+SSPKit.m */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +74,8 @@
 		5C20751B1B7DE1D100F6278E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C20751C1B7DE1D100F6278E /* SSPKit_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPKit_Tests.m; sourceTree = "<group>"; };
 		5C2075231B7DE3E700F6278E /* SSPParsingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPParsingTest.m; sourceTree = "<group>"; };
+		5C2075251B7DEA6B00F6278E /* SSPPlistTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPlistTest.m; sourceTree = "<group>"; };
+		5C2075271B7DEA9600F6278E /* TestObjects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestObjects.plist; sourceTree = "<group>"; };
 		F65C64B6177990B9001BB8A2 /* SSPAbstractMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPAbstractMethod.h; sourceTree = "<group>"; };
 		F65C64B7177990B9001BB8A2 /* DBGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGLog.h; sourceTree = "<group>"; };
 		F65C64B9177990B9001BB8A2 /* SSPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPSingleton.h; sourceTree = "<group>"; };
@@ -209,6 +213,8 @@
 			children = (
 				5C20751C1B7DE1D100F6278E /* SSPKit_Tests.m */,
 				5C2075231B7DE3E700F6278E /* SSPParsingTest.m */,
+				5C2075251B7DEA6B00F6278E /* SSPPlistTest.m */,
+				5C2075271B7DEA9600F6278E /* TestObjects.plist */,
 				5C20751A1B7DE1D100F6278E /* Supporting Files */,
 			);
 			path = "SSPKit Tests";
@@ -320,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2075281B7DEA9600F6278E /* TestObjects.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +356,7 @@
 			files = (
 				5C20751D1B7DE1D100F6278E /* SSPKit_Tests.m in Sources */,
 				5C2075241B7DE3E700F6278E /* SSPParsingTest.m in Sources */,
+				5C2075261B7DEA6B00F6278E /* SSPPlistTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
