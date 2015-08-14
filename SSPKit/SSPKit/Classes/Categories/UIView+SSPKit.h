@@ -10,11 +10,10 @@
 
 @interface UIView (SSPKit)
 
-+ (id)view;
-+ (id)viewWithNibNamed:(NSString *)nibName;
-+ (id)viewWithOwner:(id)owner;
-+ (id)viewWithNibNamed:(NSString *)nibName owner:(id)owner;
-+ (id)loadViewWithPlaceholderView:(UIView *)placeholderView;
-- (void)replaceSubview:(UIView *)subview withView:(UIView *)replacingView;
++ (id)ssp_loadFromNib;
++ (id)ssp_loadFromNibNamed:(NSString *)nibName;
++ (id)ssp_loadFromNibWithOwner:(id)owner;
++ (id)ssp_loadFromNibNamed:(NSString *)nibName owner:(id)owner;
++ (NSString *)ssp_nibName;
 
 @end

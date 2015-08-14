@@ -10,10 +10,9 @@
 
 @interface UITableViewCell (SSPKit)
 
-+ (id)cellWithNibName:(NSString *)nibName;
-+ (id)cell;
-+ (CGFloat)defaultHeight;
-+ (NSString *)reuseIdentifier;
-+ (UINib *)nib;
++ (NSString *)ssp_reuseIdentifier;
++ (UINib *)ssp_nib;
++ (void)ssp_registerNibInTableView:(UITableView *)tableView;
++ (void)ssp_registerClassInTableView:(UITableView *)tableView;
 
 @end

@@ -10,42 +10,32 @@
 
 @implementation UIView (SSPKit)
 
-+ (id)view {
-    return [self viewWithNibNamed:NSStringFromClass(self)];
++ (id)ssp_loadFromNib {
+    return [self ssp_loadFromNibNamed:[self ssp_nibName]];
 }
 
-+ (id)viewWithNibNamed:(NSString *)nibName {
-    return [self viewWithNibNamed:nibName owner:nil];
++ (id)ssp_loadFromNibNamed:(NSString *)nibName {
+    return [self ssp_loadFromNibNamed:nibName owner:nil];
 }
 
-+ (id)viewWithOwner:(id)owner {
-    return [self viewWithNibNamed:NSStringFromClass(self) owner:owner];
++ (id)ssp_loadFromNibWithOwner:(id)owner {
+    return [self ssp_loadFromNibNamed:NSStringFromClass(self) owner:owner];
 }
 
-+ (id)viewWithNibNamed:(NSString *)nibName owner:(id)owner {
++ (id)ssp_loadFromNibNamed:(NSString *)nibName owner:(id)owner {
     NSArray *views = [[NSBundle mainBundle] loadNibNamed:nibName
                                                    owner:owner
                                                  options:nil];
-    for (UIView *view in views) {
-        if ([view isKindOfClass:self]) {
-            return view;
+    for (id obj in views) {
+        if ([obj isKindOfClass:self]) {
+            return obj;
         }
     }
     return nil;
 }
 
-
-- (void)replaceSubview:(UIView *)subview withView:(UIView *)replacingView {
-    replacingView.frame = subview.frame;
-    replacingView.autoresizingMask = subview.autoresizingMask;
-    [self insertSubview:replacingView aboveSubview:subview];
-    [subview removeFromSuperview];
-}
-
-+ (id)loadViewWithPlaceholderView:(UIView *)placeholderView {
-    UIView *view = [self view];
-    [placeholderView.superview replaceSubview:placeholderView withView:view];
-    return view;
++ (NSString *)ssp_nibName {
+    return NSStringFromClass(self);
 }
 
 @end

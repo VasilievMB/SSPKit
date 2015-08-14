@@ -7,30 +7,24 @@
 //
 
 #import "UITableViewCell+SSPKit.h"
+#import "UIView+SSPKit.h"
 
 @implementation UITableViewCell (SSPKit)
 
-+ (id)cellWithNibName:(NSString *)nibName {
-    NSArray *nib = [[NSBundle mainBundle] loadNibNamed:nibName
-                                                 owner:nil
-                                               options:nil];
-    return [nib lastObject];
-}
-
-+ (id)cell {
-    return [self cellWithNibName:NSStringFromClass([self class])];
-}
-
-+ (CGFloat)defaultHeight  {
-    return 40.0f;
-}
-
-+ (NSString *)reuseIdentifier {
++ (NSString *)ssp_reuseIdentifier {
     return NSStringFromClass(self);
 }
 
-+ (UINib *)nib {
-    return [UINib nibWithNibName:NSStringFromClass([self class]) bundle:nil];
++ (UINib *)ssp_nib {
+    return [UINib nibWithNibName:[self ssp_nibName] bundle:nil];
+}
+
++ (void)ssp_registerNibInTableView:(UITableView *)tableView {
+    [tableView registerNib:[self ssp_nib] forCellReuseIdentifier:[self ssp_reuseIdentifier]];
+}
+
++ (void)ssp_registerClassInTableView:(UITableView *)tableView {
+    [tableView registerClass:self forCellReuseIdentifier:[self ssp_reuseIdentifier]];
 }
 
 @end
