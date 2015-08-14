@@ -80,13 +80,8 @@ static NSString * _ssp_defaultParstingDateFormat = @"yyyy-MM-dd'T'HH:mm:ssZZZ";
 }
 
 - (NSDate *)ssp_dateForKey:(id)key {
-    NSString *timestamp = [self ssp_objectEscapingNullForKey:key];
-    if (timestamp) {
-        NSDateFormatter *df = [[NSDateFormatter alloc] init];
-        df.dateFormat = [NSDateFormatter ssp_defaultParstingDateFormat];
-        return [df dateFromString:timestamp];
-    }
-    return nil;
+    return [self ssp_dateForKey:key
+                     withFormat:[NSDateFormatter ssp_defaultParstingDateFormat]];
 }
 
 @end
