@@ -27,6 +27,15 @@
 		5C2075241B7DE3E700F6278E /* SSPParsingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075231B7DE3E700F6278E /* SSPParsingTest.m */; };
 		5C2075261B7DEA6B00F6278E /* SSPPlistTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075251B7DEA6B00F6278E /* SSPPlistTest.m */; };
 		5C2075281B7DEA9600F6278E /* TestObjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C2075271B7DEA9600F6278E /* TestObjects.plist */; };
+		5C20752B1B7DEF0100F6278E /* UIColor+SSPHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20752A1B7DEF0100F6278E /* UIColor+SSPHex.m */; };
+		5C20752E1B84883C00F6278E /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20752D1B84883C00F6278E /* UIView+Animation.m */; };
+		5C2075311B8489FF00F6278E /* NSArray+SSPShuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075301B8489FF00F6278E /* NSArray+SSPShuffle.m */; };
+		5C2075341B848A2800F6278E /* NSMutableArray+SSPShuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075331B848A2800F6278E /* NSMutableArray+SSPShuffle.m */; };
+		5C2075371B848B5000F6278E /* NSString+SSPHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075361B848B5000F6278E /* NSString+SSPHash.m */; };
+		5C20753A1B84AD3F00F6278E /* UIView+SSPImageRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075391B84AD3F00F6278E /* UIView+SSPImageRepresentation.m */; };
+		5C20753D1B85848D00F6278E /* UIImage+SSPRenderInContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20753C1B85848D00F6278E /* UIImage+SSPRenderInContext.m */; };
+		5C2075401B85A7CB00F6278E /* UIImage+SSPResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20753F1B85A7CB00F6278E /* UIImage+SSPResize.m */; };
+		5C9E57971B9046D50090D577 /* NSString+SSPUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E57961B9046D50090D577 /* NSString+SSPUUID.m */; };
 		F65C64BC1779928E001BB8A2 /* UITableViewCell+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C64BB1779928E001BB8A2 /* UITableViewCell+SSPKit.m */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +85,24 @@
 		5C2075231B7DE3E700F6278E /* SSPParsingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPParsingTest.m; sourceTree = "<group>"; };
 		5C2075251B7DEA6B00F6278E /* SSPPlistTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPlistTest.m; sourceTree = "<group>"; };
 		5C2075271B7DEA9600F6278E /* TestObjects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestObjects.plist; sourceTree = "<group>"; };
+		5C2075291B7DEF0100F6278E /* UIColor+SSPHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SSPHex.h"; sourceTree = "<group>"; };
+		5C20752A1B7DEF0100F6278E /* UIColor+SSPHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SSPHex.m"; sourceTree = "<group>"; };
+		5C20752C1B84883C00F6278E /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		5C20752D1B84883C00F6278E /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		5C20752F1B8489FF00F6278E /* NSArray+SSPShuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SSPShuffle.h"; sourceTree = "<group>"; };
+		5C2075301B8489FF00F6278E /* NSArray+SSPShuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SSPShuffle.m"; sourceTree = "<group>"; };
+		5C2075321B848A2800F6278E /* NSMutableArray+SSPShuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SSPShuffle.h"; sourceTree = "<group>"; };
+		5C2075331B848A2800F6278E /* NSMutableArray+SSPShuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SSPShuffle.m"; sourceTree = "<group>"; };
+		5C2075351B848B5000F6278E /* NSString+SSPHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SSPHash.h"; sourceTree = "<group>"; };
+		5C2075361B848B5000F6278E /* NSString+SSPHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SSPHash.m"; sourceTree = "<group>"; };
+		5C2075381B84AD3F00F6278E /* UIView+SSPImageRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SSPImageRepresentation.h"; sourceTree = "<group>"; };
+		5C2075391B84AD3F00F6278E /* UIView+SSPImageRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SSPImageRepresentation.m"; sourceTree = "<group>"; };
+		5C20753B1B85848D00F6278E /* UIImage+SSPRenderInContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SSPRenderInContext.h"; sourceTree = "<group>"; };
+		5C20753C1B85848D00F6278E /* UIImage+SSPRenderInContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SSPRenderInContext.m"; sourceTree = "<group>"; };
+		5C20753E1B85A7CB00F6278E /* UIImage+SSPResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SSPResize.h"; sourceTree = "<group>"; };
+		5C20753F1B85A7CB00F6278E /* UIImage+SSPResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SSPResize.m"; sourceTree = "<group>"; };
+		5C9E57951B9046D50090D577 /* NSString+SSPUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SSPUUID.h"; sourceTree = "<group>"; };
+		5C9E57961B9046D50090D577 /* NSString+SSPUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SSPUUID.m"; sourceTree = "<group>"; };
 		F65C64B6177990B9001BB8A2 /* SSPAbstractMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPAbstractMethod.h; sourceTree = "<group>"; };
 		F65C64B7177990B9001BB8A2 /* DBGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGLog.h; sourceTree = "<group>"; };
 		F65C64B9177990B9001BB8A2 /* SSPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPSingleton.h; sourceTree = "<group>"; };
@@ -188,6 +215,24 @@
 				5C20750F1B7DC17800F6278E /* NSObject+SSPPlist.m */,
 				5C2075111B7DC31C00F6278E /* NSDictionary+SSPParsing.h */,
 				5C2075121B7DC31C00F6278E /* NSDictionary+SSPParsing.m */,
+				5C2075291B7DEF0100F6278E /* UIColor+SSPHex.h */,
+				5C20752A1B7DEF0100F6278E /* UIColor+SSPHex.m */,
+				5C20752C1B84883C00F6278E /* UIView+Animation.h */,
+				5C20752D1B84883C00F6278E /* UIView+Animation.m */,
+				5C20752F1B8489FF00F6278E /* NSArray+SSPShuffle.h */,
+				5C2075301B8489FF00F6278E /* NSArray+SSPShuffle.m */,
+				5C2075321B848A2800F6278E /* NSMutableArray+SSPShuffle.h */,
+				5C2075331B848A2800F6278E /* NSMutableArray+SSPShuffle.m */,
+				5C2075351B848B5000F6278E /* NSString+SSPHash.h */,
+				5C2075361B848B5000F6278E /* NSString+SSPHash.m */,
+				5C9E57951B9046D50090D577 /* NSString+SSPUUID.h */,
+				5C9E57961B9046D50090D577 /* NSString+SSPUUID.m */,
+				5C2075381B84AD3F00F6278E /* UIView+SSPImageRepresentation.h */,
+				5C2075391B84AD3F00F6278E /* UIView+SSPImageRepresentation.m */,
+				5C20753B1B85848D00F6278E /* UIImage+SSPRenderInContext.h */,
+				5C20753C1B85848D00F6278E /* UIImage+SSPRenderInContext.m */,
+				5C20753E1B85A7CB00F6278E /* UIImage+SSPResize.h */,
+				5C20753F1B85A7CB00F6278E /* UIImage+SSPResize.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -338,14 +383,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F58CF961738FAFA00AF7A1D /* main.m in Sources */,
+				5C2075311B8489FF00F6278E /* NSArray+SSPShuffle.m in Sources */,
 				3F58CF9A1738FAFA00AF7A1D /* SSPAppDelegate.m in Sources */,
+				5C20752B1B7DEF0100F6278E /* UIColor+SSPHex.m in Sources */,
 				3F75D3FE1744B4B000F2DB60 /* UIView+SSPKit.m in Sources */,
 				5C20750A1B7DB31100F6278E /* SSPGeometry.c in Sources */,
+				5C20753D1B85848D00F6278E /* UIImage+SSPRenderInContext.m in Sources */,
 				5C2075071B7C83E000F6278E /* UIViewController+SSPStoryboard.m in Sources */,
+				5C2075371B848B5000F6278E /* NSString+SSPHash.m in Sources */,
 				5C2075131B7DC31C00F6278E /* NSDictionary+SSPParsing.m in Sources */,
+				5C2075401B85A7CB00F6278E /* UIImage+SSPResize.m in Sources */,
+				5C2075341B848A2800F6278E /* NSMutableArray+SSPShuffle.m in Sources */,
+				5C20753A1B84AD3F00F6278E /* UIView+SSPImageRepresentation.m in Sources */,
 				5C2075101B7DC17800F6278E /* NSObject+SSPPlist.m in Sources */,
 				F65C64BC1779928E001BB8A2 /* UITableViewCell+SSPKit.m in Sources */,
+				5C20752E1B84883C00F6278E /* UIView+Animation.m in Sources */,
 				5C20750D1B7DBFF100F6278E /* NSObject+SSPDictionary.m in Sources */,
+				5C9E57971B9046D50090D577 /* NSString+SSPUUID.m in Sources */,
 				5C2075041B7C7DBA00F6278E /* SSPNibContainerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,6 +610,7 @@
 				5C2075211B7DE1D100F6278E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

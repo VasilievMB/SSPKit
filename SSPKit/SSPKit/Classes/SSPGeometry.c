@@ -51,6 +51,22 @@ CGSize CGSizeAspectFillSize(CGSize size, CGSize containerSize) {
     return CGSizeScale(size, scale);
 }
 
+CGRect CGRectMakeWithSize(CGSize size) {
+    CGRect rect = CGRectZero;
+    rect.size = size;
+    return rect;
+}
+
+CGRect CGRectAspectFitRect(CGRect rect, CGRect containerRect) {
+    rect.size = CGSizeAspectFitSize(rect.size, containerRect.size);
+    return CGRectCenterToRect(rect, containerRect);
+}
+
+CGRect CGRectAspectFillRect(CGRect rect, CGRect containerRect) {
+    rect.size = CGSizeAspectFillSize(rect.size, containerRect.size);
+    return CGRectCenterToRect(rect, containerRect);
+}
+
 CGFloat CGPointDotProduct(CGPoint p0, CGPoint p1) {
     return p0.x * p1.x + p0.y * p1.y;
 }

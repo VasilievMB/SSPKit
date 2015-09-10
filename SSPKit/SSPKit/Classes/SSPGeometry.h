@@ -23,6 +23,11 @@ CGRect CGRectRound(CGRect rect);
 CGSize CGSizeAspectFitSize(CGSize size, CGSize containerSize);
 CGSize CGSizeAspectFillSize(CGSize size, CGSize containerSize);
 
+CGRect CGRectAspectFitRect(CGRect rect, CGRect containerRect);
+CGRect CGRectAspectFillRect(CGRect rect, CGRect containerRect);
+
+CGRect CGRectMakeWithSize(CGSize size);
+
 CGFloat CGPointDotProduct(CGPoint p0, CGPoint p1);
 CGPoint CGPointAdd(CGPoint p0, CGPoint p1);
 CGPoint CGPointSubtract(CGPoint p0, CGPoint p1);
