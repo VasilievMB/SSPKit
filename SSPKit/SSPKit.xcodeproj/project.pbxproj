@@ -17,6 +17,8 @@
 		3F58CF9E1738FAFA00AF7A1D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F58CF9D1738FAFA00AF7A1D /* Default@2x.png */; };
 		3F58CFA01738FAFA00AF7A1D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F58CF9F1738FAFA00AF7A1D /* Default-568h@2x.png */; };
 		3F75D3FE1744B4B000F2DB60 /* UIView+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F75D3F21744B4B000F2DB60 /* UIView+SSPKit.m */; };
+		5C0E4B401BE88C7F00EFC121 /* SSPGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E4B3F1BE88C7F00EFC121 /* SSPGradientView.m */; };
+		5C0E4B421BE88CCC00EFC121 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0E4B411BE88CCC00EFC121 /* QuartzCore.framework */; };
 		5C2075041B7C7DBA00F6278E /* SSPNibContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075031B7C7DBA00F6278E /* SSPNibContainerView.m */; };
 		5C2075071B7C83E000F6278E /* UIViewController+SSPStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075061B7C83E000F6278E /* UIViewController+SSPStoryboard.m */; };
 		5C20750A1B7DB31100F6278E /* SSPGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075081B7DB31100F6278E /* SSPGeometry.c */; };
@@ -67,6 +69,9 @@
 		3F75D3F21744B4B000F2DB60 /* UIView+SSPKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SSPKit.m"; sourceTree = "<group>"; };
 		5539DBAC17B8846F0007D408 /* NSAttributedString+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Additions.h"; sourceTree = "<group>"; };
 		5539DBAD17B8846F0007D408 /* NSAttributedString+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Additions.m"; sourceTree = "<group>"; };
+		5C0E4B3E1BE88C7F00EFC121 /* SSPGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPGradientView.h; sourceTree = "<group>"; };
+		5C0E4B3F1BE88C7F00EFC121 /* SSPGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPGradientView.m; sourceTree = "<group>"; };
+		5C0E4B411BE88CCC00EFC121 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5C2075021B7C7DBA00F6278E /* SSPNibContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPNibContainerView.h; sourceTree = "<group>"; };
 		5C2075031B7C7DBA00F6278E /* SSPNibContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPNibContainerView.m; sourceTree = "<group>"; };
 		5C2075051B7C83E000F6278E /* UIViewController+SSPStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SSPStoryboard.h"; sourceTree = "<group>"; };
@@ -115,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0E4B421BE88CCC00EFC121 /* QuartzCore.framework in Frameworks */,
 				3F58CF8A1738FAFA00AF7A1D /* UIKit.framework in Frameworks */,
 				3F58CF8C1738FAFA00AF7A1D /* Foundation.framework in Frameworks */,
 				3F58CF8E1738FAFA00AF7A1D /* CoreGraphics.framework in Frameworks */,
@@ -153,6 +159,7 @@
 		3F58CF881738FAFA00AF7A1D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C0E4B411BE88CCC00EFC121 /* QuartzCore.framework */,
 				3F58CF891738FAFA00AF7A1D /* UIKit.framework */,
 				3F58CF8B1738FAFA00AF7A1D /* Foundation.framework */,
 				3F58CF8D1738FAFA00AF7A1D /* CoreGraphics.framework */,
@@ -249,6 +256,8 @@
 			children = (
 				5C2075021B7C7DBA00F6278E /* SSPNibContainerView.h */,
 				5C2075031B7C7DBA00F6278E /* SSPNibContainerView.m */,
+				5C0E4B3E1BE88C7F00EFC121 /* SSPGradientView.h */,
+				5C0E4B3F1BE88C7F00EFC121 /* SSPGradientView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -389,6 +398,7 @@
 				3F75D3FE1744B4B000F2DB60 /* UIView+SSPKit.m in Sources */,
 				5C20750A1B7DB31100F6278E /* SSPGeometry.c in Sources */,
 				5C20753D1B85848D00F6278E /* UIImage+SSPRenderInContext.m in Sources */,
+				5C0E4B401BE88C7F00EFC121 /* SSPGradientView.m in Sources */,
 				5C2075071B7C83E000F6278E /* UIViewController+SSPStoryboard.m in Sources */,
 				5C2075371B848B5000F6278E /* NSString+SSPHash.m in Sources */,
 				5C2075131B7DC31C00F6278E /* NSDictionary+SSPParsing.m in Sources */,
