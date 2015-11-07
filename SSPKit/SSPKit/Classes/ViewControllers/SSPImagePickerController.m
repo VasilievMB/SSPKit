@@ -105,6 +105,7 @@
 }
 
 + (BOOL)onCameraPermissionsDeniedWithPresentingViewController:(UIViewController *)presentingViewController {
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 80000
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil
                                                                              message:NSLocalizedString(@"You have disabled Camera access", nil)
                                                                       preferredStyle:UIAlertControllerStyleActionSheet];
@@ -119,6 +120,7 @@
                                                       handler:NULL]
      ];
     [presentingViewController presentViewController:alertController animated:YES completion:nil];
+#endif
     
     return NO;
 }

@@ -40,6 +40,7 @@
 		74BE4B5C1BEE360500A097FF /* SSPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B5B1BEE360500A097FF /* SSPImagePickerController.m */; settings = {ASSET_TAGS = (); }; };
 		74BE4B601BEE3D3F00A097FF /* SSPExampleHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B5F1BEE3D3F00A097FF /* SSPExampleHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		74BE4B641BEE3D9C00A097FF /* SSPGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B621BEE3D9C00A097FF /* SSPGeometry.c */; settings = {ASSET_TAGS = (); }; };
+		74BE4B661BEE55FD00A097FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BE4B651BEE55FD00A097FF /* AVFoundation.framework */; };
 		F65C64BC1779928E001BB8A2 /* UITableViewCell+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C64BB1779928E001BB8A2 /* UITableViewCell+SSPKit.m */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +115,7 @@
 		74BE4B5F1BEE3D3F00A097FF /* SSPExampleHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPExampleHomeViewController.m; sourceTree = "<group>"; };
 		74BE4B621BEE3D9C00A097FF /* SSPGeometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SSPGeometry.c; sourceTree = "<group>"; };
 		74BE4B631BEE3D9C00A097FF /* SSPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPGeometry.h; sourceTree = "<group>"; };
+		74BE4B651BEE55FD00A097FF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F65C64B6177990B9001BB8A2 /* SSPAbstractMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPAbstractMethod.h; sourceTree = "<group>"; };
 		F65C64B7177990B9001BB8A2 /* DBGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGLog.h; sourceTree = "<group>"; };
 		F65C64B9177990B9001BB8A2 /* SSPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPSingleton.h; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BE4B661BEE55FD00A097FF /* AVFoundation.framework in Frameworks */,
 				5C0E4B421BE88CCC00EFC121 /* QuartzCore.framework in Frameworks */,
 				3F58CF8A1738FAFA00AF7A1D /* UIKit.framework in Frameworks */,
 				3F58CF8C1738FAFA00AF7A1D /* Foundation.framework in Frameworks */,
@@ -165,6 +168,7 @@
 		3F58CF881738FAFA00AF7A1D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74BE4B651BEE55FD00A097FF /* AVFoundation.framework */,
 				5C0E4B411BE88CCC00EFC121 /* QuartzCore.framework */,
 				3F58CF891738FAFA00AF7A1D /* UIKit.framework */,
 				3F58CF8B1738FAFA00AF7A1D /* Foundation.framework */,
