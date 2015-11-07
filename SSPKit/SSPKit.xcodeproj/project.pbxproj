@@ -21,7 +21,6 @@
 		5C0E4B421BE88CCC00EFC121 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0E4B411BE88CCC00EFC121 /* QuartzCore.framework */; };
 		5C2075041B7C7DBA00F6278E /* SSPNibContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075031B7C7DBA00F6278E /* SSPNibContainerView.m */; };
 		5C2075071B7C83E000F6278E /* UIViewController+SSPStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075061B7C83E000F6278E /* UIViewController+SSPStoryboard.m */; };
-		5C20750A1B7DB31100F6278E /* SSPGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075081B7DB31100F6278E /* SSPGeometry.c */; };
 		5C20750D1B7DBFF100F6278E /* NSObject+SSPDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20750C1B7DBFF100F6278E /* NSObject+SSPDictionary.m */; };
 		5C2075101B7DC17800F6278E /* NSObject+SSPPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20750F1B7DC17800F6278E /* NSObject+SSPPlist.m */; };
 		5C2075131B7DC31C00F6278E /* NSDictionary+SSPParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075121B7DC31C00F6278E /* NSDictionary+SSPParsing.m */; };
@@ -38,6 +37,9 @@
 		5C20753D1B85848D00F6278E /* UIImage+SSPRenderInContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20753C1B85848D00F6278E /* UIImage+SSPRenderInContext.m */; };
 		5C2075401B85A7CB00F6278E /* UIImage+SSPResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20753F1B85A7CB00F6278E /* UIImage+SSPResize.m */; };
 		5C9E57971B9046D50090D577 /* NSString+SSPUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E57961B9046D50090D577 /* NSString+SSPUUID.m */; };
+		74BE4B5C1BEE360500A097FF /* SSPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B5B1BEE360500A097FF /* SSPImagePickerController.m */; settings = {ASSET_TAGS = (); }; };
+		74BE4B601BEE3D3F00A097FF /* SSPExampleHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B5F1BEE3D3F00A097FF /* SSPExampleHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		74BE4B641BEE3D9C00A097FF /* SSPGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B621BEE3D9C00A097FF /* SSPGeometry.c */; settings = {ASSET_TAGS = (); }; };
 		F65C64BC1779928E001BB8A2 /* UITableViewCell+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F65C64BB1779928E001BB8A2 /* UITableViewCell+SSPKit.m */; };
 /* End PBXBuildFile section */
 
@@ -76,8 +78,6 @@
 		5C2075031B7C7DBA00F6278E /* SSPNibContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPNibContainerView.m; sourceTree = "<group>"; };
 		5C2075051B7C83E000F6278E /* UIViewController+SSPStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SSPStoryboard.h"; sourceTree = "<group>"; };
 		5C2075061B7C83E000F6278E /* UIViewController+SSPStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SSPStoryboard.m"; sourceTree = "<group>"; };
-		5C2075081B7DB31100F6278E /* SSPGeometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SSPGeometry.c; sourceTree = "<group>"; };
-		5C2075091B7DB31100F6278E /* SSPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPGeometry.h; sourceTree = "<group>"; };
 		5C20750B1B7DBFF100F6278E /* NSObject+SSPDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SSPDictionary.h"; sourceTree = "<group>"; };
 		5C20750C1B7DBFF100F6278E /* NSObject+SSPDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SSPDictionary.m"; sourceTree = "<group>"; };
 		5C20750E1B7DC17800F6278E /* NSObject+SSPPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SSPPlist.h"; sourceTree = "<group>"; };
@@ -108,6 +108,12 @@
 		5C20753F1B85A7CB00F6278E /* UIImage+SSPResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SSPResize.m"; sourceTree = "<group>"; };
 		5C9E57951B9046D50090D577 /* NSString+SSPUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SSPUUID.h"; sourceTree = "<group>"; };
 		5C9E57961B9046D50090D577 /* NSString+SSPUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SSPUUID.m"; sourceTree = "<group>"; };
+		74BE4B5A1BEE360500A097FF /* SSPImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPImagePickerController.h; sourceTree = "<group>"; };
+		74BE4B5B1BEE360500A097FF /* SSPImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPImagePickerController.m; sourceTree = "<group>"; };
+		74BE4B5E1BEE3D3F00A097FF /* SSPExampleHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPExampleHomeViewController.h; sourceTree = "<group>"; };
+		74BE4B5F1BEE3D3F00A097FF /* SSPExampleHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPExampleHomeViewController.m; sourceTree = "<group>"; };
+		74BE4B621BEE3D9C00A097FF /* SSPGeometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SSPGeometry.c; sourceTree = "<group>"; };
+		74BE4B631BEE3D9C00A097FF /* SSPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPGeometry.h; sourceTree = "<group>"; };
 		F65C64B6177990B9001BB8A2 /* SSPAbstractMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPAbstractMethod.h; sourceTree = "<group>"; };
 		F65C64B7177990B9001BB8A2 /* DBGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGLog.h; sourceTree = "<group>"; };
 		F65C64B9177990B9001BB8A2 /* SSPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPSingleton.h; sourceTree = "<group>"; };
@@ -170,6 +176,7 @@
 		3F58CF8F1738FAFA00AF7A1D /* SSPKit */ = {
 			isa = PBXGroup;
 			children = (
+				74BE4B5D1BEE3D1000A097FF /* Example */,
 				3F75D3ED1744B4B000F2DB60 /* Classes */,
 				3F58CF981738FAFA00AF7A1D /* SSPAppDelegate.h */,
 				3F58CF991738FAFA00AF7A1D /* SSPAppDelegate.m */,
@@ -195,12 +202,11 @@
 		3F75D3ED1744B4B000F2DB60 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				74BE4B611BEE3D9C00A097FF /* Common */,
 				5C2075011B7C7DA400F6278E /* Views */,
 				3F75D3EE1744B4B000F2DB60 /* Categories */,
 				F65C64B5177990B9001BB8A2 /* Macros */,
-				3F75D3F91744B4B000F2DB60 /* ViewControllers */,
-				5C2075091B7DB31100F6278E /* SSPGeometry.h */,
-				5C2075081B7DB31100F6278E /* SSPGeometry.c */,
+				74BE4B591BEE35D200A097FF /* ViewControllers */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -244,13 +250,6 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		3F75D3F91744B4B000F2DB60 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		5C2075011B7C7DA400F6278E /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +279,33 @@
 				5C20751B1B7DE1D100F6278E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74BE4B591BEE35D200A097FF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				74BE4B5A1BEE360500A097FF /* SSPImagePickerController.h */,
+				74BE4B5B1BEE360500A097FF /* SSPImagePickerController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74BE4B5D1BEE3D1000A097FF /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				74BE4B5E1BEE3D3F00A097FF /* SSPExampleHomeViewController.h */,
+				74BE4B5F1BEE3D3F00A097FF /* SSPExampleHomeViewController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		74BE4B611BEE3D9C00A097FF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				74BE4B631BEE3D9C00A097FF /* SSPGeometry.h */,
+				74BE4B621BEE3D9C00A097FF /* SSPGeometry.c */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		F65C64B5177990B9001BB8A2 /* Macros */ = {
@@ -396,7 +422,6 @@
 				3F58CF9A1738FAFA00AF7A1D /* SSPAppDelegate.m in Sources */,
 				5C20752B1B7DEF0100F6278E /* UIColor+SSPHex.m in Sources */,
 				3F75D3FE1744B4B000F2DB60 /* UIView+SSPKit.m in Sources */,
-				5C20750A1B7DB31100F6278E /* SSPGeometry.c in Sources */,
 				5C20753D1B85848D00F6278E /* UIImage+SSPRenderInContext.m in Sources */,
 				5C0E4B401BE88C7F00EFC121 /* SSPGradientView.m in Sources */,
 				5C2075071B7C83E000F6278E /* UIViewController+SSPStoryboard.m in Sources */,
@@ -404,12 +429,15 @@
 				5C2075131B7DC31C00F6278E /* NSDictionary+SSPParsing.m in Sources */,
 				5C2075401B85A7CB00F6278E /* UIImage+SSPResize.m in Sources */,
 				5C2075341B848A2800F6278E /* NSMutableArray+SSPShuffle.m in Sources */,
+				74BE4B601BEE3D3F00A097FF /* SSPExampleHomeViewController.m in Sources */,
 				5C20753A1B84AD3F00F6278E /* UIView+SSPImageRepresentation.m in Sources */,
 				5C2075101B7DC17800F6278E /* NSObject+SSPPlist.m in Sources */,
 				F65C64BC1779928E001BB8A2 /* UITableViewCell+SSPKit.m in Sources */,
 				5C20752E1B84883C00F6278E /* UIView+Animation.m in Sources */,
+				74BE4B641BEE3D9C00A097FF /* SSPGeometry.c in Sources */,
 				5C20750D1B7DBFF100F6278E /* NSObject+SSPDictionary.m in Sources */,
 				5C9E57971B9046D50090D577 /* NSString+SSPUUID.m in Sources */,
+				74BE4B5C1BEE360500A097FF /* SSPImagePickerController.m in Sources */,
 				5C2075041B7C7DBA00F6278E /* SSPNibContainerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
