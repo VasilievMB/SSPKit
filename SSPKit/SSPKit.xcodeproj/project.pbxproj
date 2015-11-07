@@ -43,6 +43,8 @@
 		74BE4BAB1BEE635800A097FF /* SSPNibContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B971BEE635800A097FF /* SSPNibContainerView.m */; settings = {ASSET_TAGS = (); }; };
 		74BE4BAF1BEE63E700A097FF /* SSPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BAE1BEE63E700A097FF /* SSPImagePickerController.m */; settings = {ASSET_TAGS = (); }; };
 		74BE4BB31BEE647800A097FF /* SSPPaginationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BB21BEE647800A097FF /* SSPPaginationController.m */; settings = {ASSET_TAGS = (); }; };
+		74BE4BB61BEE6DC900A097FF /* SSPPaginationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BB51BEE6DC900A097FF /* SSPPaginationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		74BE4BB91BEE6F9600A097FF /* SSPPaginationExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BB81BEE6F9600A097FF /* SSPPaginationExampleViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +124,10 @@
 		74BE4BAE1BEE63E700A097FF /* SSPImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPImagePickerController.m; sourceTree = "<group>"; };
 		74BE4BB11BEE647800A097FF /* SSPPaginationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPPaginationController.h; sourceTree = "<group>"; };
 		74BE4BB21BEE647800A097FF /* SSPPaginationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPaginationController.m; sourceTree = "<group>"; };
+		74BE4BB41BEE6DC900A097FF /* SSPPaginationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPPaginationViewController.h; sourceTree = "<group>"; };
+		74BE4BB51BEE6DC900A097FF /* SSPPaginationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPaginationViewController.m; sourceTree = "<group>"; };
+		74BE4BB71BEE6F9600A097FF /* SSPPaginationExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPPaginationExampleViewController.h; sourceTree = "<group>"; };
+		74BE4BB81BEE6F9600A097FF /* SSPPaginationExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPaginationExampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +245,8 @@
 			children = (
 				74BE4B5E1BEE3D3F00A097FF /* SSPExampleHomeViewController.h */,
 				74BE4B5F1BEE3D3F00A097FF /* SSPExampleHomeViewController.m */,
+				74BE4BB71BEE6F9600A097FF /* SSPPaginationExampleViewController.h */,
+				74BE4BB81BEE6F9600A097FF /* SSPPaginationExampleViewController.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -335,6 +343,8 @@
 			children = (
 				74BE4BB11BEE647800A097FF /* SSPPaginationController.h */,
 				74BE4BB21BEE647800A097FF /* SSPPaginationController.m */,
+				74BE4BB41BEE6DC900A097FF /* SSPPaginationViewController.h */,
+				74BE4BB51BEE6DC900A097FF /* SSPPaginationViewController.m */,
 			);
 			path = Pagination;
 			sourceTree = "<group>";
@@ -445,6 +455,7 @@
 				74BE4BA01BEE635800A097FF /* UIColor+SSPHex.m in Sources */,
 				74BE4B9F1BEE635800A097FF /* NSString+SSPUUID.m in Sources */,
 				74BE4BA11BEE635800A097FF /* UIImage+SSPRenderInContext.m in Sources */,
+				74BE4BB61BEE6DC900A097FF /* SSPPaginationViewController.m in Sources */,
 				74BE4B9E1BEE635800A097FF /* NSString+SSPHash.m in Sources */,
 				74BE4BA21BEE635800A097FF /* UIImage+SSPResize.m in Sources */,
 				74BE4BB31BEE647800A097FF /* SSPPaginationController.m in Sources */,
@@ -461,6 +472,7 @@
 				3F58CF9A1738FAFA00AF7A1D /* SSPAppDelegate.m in Sources */,
 				74BE4B601BEE3D3F00A097FF /* SSPExampleHomeViewController.m in Sources */,
 				74BE4BAA1BEE635800A097FF /* SSPGradientView.m in Sources */,
+				74BE4BB91BEE6F9600A097FF /* SSPPaginationExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

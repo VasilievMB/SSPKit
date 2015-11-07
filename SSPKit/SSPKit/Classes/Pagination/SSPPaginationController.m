@@ -32,7 +32,7 @@ const NSInteger SSPPaginationControllerDefaultLimit = 20;
 
 - (void)fetchItemsWithOffset:(NSInteger)offset limit:(NSInteger)limit {
     NSAssert(self.fetchOperation == nil, @"Fetch operation already in process");
-    self.fetchOperation = [self.delegate paginationController:self fetchOperationWithOffset:[self offset] limit:self.limit];
+    self.fetchOperation = [self.delegate paginationController:self fetchOperationWithOffset:offset limit:self.limit];
 }
 
 - (void)didFetchItems:(NSArray *)items offset:(NSInteger)offset {
@@ -58,7 +58,12 @@ const NSInteger SSPPaginationControllerDefaultLimit = 20;
 
 - (void)cancelFetching {
     [self.fetchOperation cancel];
+    NSOperation *operation = self.fetchOperation;
     self.fetchOperation = nil;
+    
+    if ([self.delegate respondsToSelector:@selector(paginationController:didCancelFetchOperation:)]) {
+        [self.delegate paginationController:self didCancelFetchOperation:operation];
+    }
 }
 
 - (void)reset {

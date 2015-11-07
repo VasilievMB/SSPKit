@@ -10,11 +10,11 @@
 
 extern const NSInteger SSPPaginationControllerDefaultLimit;
 
-@protocol SSPPaginationController;
+@protocol SSPPaginationControllerDelegate;
 
 @interface SSPPaginationController : NSObject
 
-@property (weak, nonatomic) id<SSPPaginationController> delegate;
+@property (weak, nonatomic) id<SSPPaginationControllerDelegate> delegate;
 @property (nonatomic) NSInteger limit;
 
 - (void)didFetchItems:(NSArray *)items offset:(NSInteger)offset;
@@ -32,10 +32,16 @@ extern const NSInteger SSPPaginationControllerDefaultLimit;
 @end
 
 
-@protocol SSPPaginationController <NSObject>
+@protocol SSPPaginationControllerDelegate <NSObject>
+
+@required
 
 - (NSOperation *)paginationController:(SSPPaginationController *)paginationController
              fetchOperationWithOffset:(NSInteger)offset
                                 limit:(NSInteger)limit;
+
+@optional
+
+- (void)paginationController:(SSPPaginationController *)paginationController didCancelFetchOperation:(NSOperation *)operation;
 
 @end

@@ -8,6 +8,7 @@
 
 #import "SSPExampleHomeViewController.h"
 #import "SSPImagePickerController.h"
+#import "SSPPaginationExampleViewController.h"
 
 @interface SSPExampleHomeViewController ()
 
@@ -35,19 +36,42 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return 2;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
-    cell.textLabel.text = @"Pick photo";
+    NSString *title = nil;
+    switch (indexPath.row) {
+        case 0:
+            title = @"Pick photo";
+            break;
+        case 1:
+            title = @"Pagination";
+        default:
+            break;
+    }
+    cell.textLabel.text = title;
     
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    switch (indexPath.row) {
+        case 0:
+            [self testImagePicker];
+            break;
+        case 1:
+            [self testPagination];
+        default:
+            break;
+    }
+}
+
+- (void)testImagePicker {
     [SSPImagePickerController pickImageWithPresentingViewController:self
                                                          sourceType:UIImagePickerControllerSourceTypeCamera
                                                          completion:^(UIImagePickerController *picker, NSDictionary *info) {
@@ -57,5 +81,12 @@
                                                              NSLog(@"Failed to pick photo");
                                                          }];
 }
+
+- (void)testPagination {
+    id vc = [[SSPPaginationExampleViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+
 
 @end
