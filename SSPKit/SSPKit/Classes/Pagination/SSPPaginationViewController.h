@@ -16,5 +16,6 @@
 @property (strong, nonatomic) SSPPaginationController *paginationController;
 
 - (BOOL)showsRefreshControl;
+- (void)paginationController:(SSPPaginationController *)paginationController didFetchItems:(NSArray *)items offset:(NSInteger)offset;
 
 @end

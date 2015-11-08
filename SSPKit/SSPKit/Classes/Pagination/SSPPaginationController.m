@@ -42,9 +42,17 @@ const NSInteger SSPPaginationControllerDefaultLimit = 20;
     if ([self.items count] > offset) {
         NSRange range = {offset, [self.items count] - offset};
         [self.items removeObjectsInRange:range];
+        
+        if ([self.delegate respondsToSelector:@selector(paginationController:didRemoveItemsInRange:)]) {
+            [self.delegate paginationController:self didRemoveItemsInRange:range];
+        }
     }
+    NSRange range = NSMakeRange(self.items.count, items.count);
     [self.items addObjectsFromArray:items];
-
+    
+    if ([self.delegate respondsToSelector:@selector(paginationController:didAddItemsInRange:)]) {
+        [self.delegate paginationController:self didAddItemsInRange:range];
+    }
 }
 
 - (void)didFailWithError:(NSError *)error {

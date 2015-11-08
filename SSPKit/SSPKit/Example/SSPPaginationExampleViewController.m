@@ -42,6 +42,7 @@
     }
     
     [self.paginationController refresh];
+    [self.refreshControl beginRefreshing];
 }
 
 - (NSOperation *)paginationController:(SSPPaginationController *)paginationController
@@ -49,17 +50,14 @@
                                 limit:(NSInteger)limit {
     __weak typeof(self) weakSelf = self;
     NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{
-        [NSThread sleepForTimeInterval:10.0];
+        [NSThread sleepForTimeInterval:1.0];
     }];
     [operation setCompletionBlock:^{
         NSInteger off = MIN(weakSelf.items.count - 1, offset);
         NSUInteger count = MIN( weakSelf.items.count - off, limit );
         NSArray *itemsForView = [weakSelf.items subarrayWithRange: NSMakeRange(off, count)];
-        [weakSelf.paginationController didFetchItems:itemsForView offset:off];
-        
         dispatch_async(dispatch_get_main_queue(), ^{
-            [weakSelf.tableView reloadData];
-            [weakSelf.refreshControl endRefreshing];
+            [weakSelf paginationController:paginationController didFetchItems:itemsForView offset:off];
         });
     }];
     

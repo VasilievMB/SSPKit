@@ -36,11 +36,38 @@
     [self.paginationController refresh];
 }
 
+- (void)paginationController:(SSPPaginationController *)paginationController didFetchItems:(NSArray *)items offset:(NSInteger)offset {
+//    [self.tableView beginUpdates];
+    [paginationController didFetchItems:items offset:offset];
+//    [self.tableView endUpdates];
+    
+    [self.tableView reloadData];
+    
+    [self.refreshControl endRefreshing];
+}
+
+- (NSArray *)indexPathsWithRange:(NSRange)range {
+    NSMutableArray *indexPaths = [NSMutableArray array];
+    for (NSInteger row = range.location; row < range.location + range.length; ++row) {
+        NSIndexPath *indexPath = [NSIndexPath indexPathForRow:row inSection:0];
+        [indexPaths addObject:indexPath];
+    }
+    return [indexPaths copy];
+}
+
 #pragma mark - SSPPaginationController delegate
 
 - (NSOperation *)paginationController:(SSPPaginationController *)paginationController
              fetchOperationWithOffset:(NSInteger)offset
                                 limit:(NSInteger)limit SSP_ABSTRACT_METHOD
+
+//- (void)paginationController:(SSPPaginationController *)paginationController didAddItemsInRange:(NSRange)range {
+//    [self.tableView insertRowsAtIndexPaths:[self indexPathsWithRange:range] withRowAnimation:UITableViewRowAnimationAutomatic];
+//}
+//
+//- (void)paginationController:(SSPPaginationController *)paginationController didRemoveItemsInRange:(NSRange)range {
+//    [self.tableView deleteRowsAtIndexPaths:[self indexPathsWithRange:range] withRowAnimation:UITableViewRowAnimationAutomatic];
+//}
 
 #pragma mark - TableView data source
 

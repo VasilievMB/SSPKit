@@ -43,5 +43,7 @@ extern const NSInteger SSPPaginationControllerDefaultLimit;
 @optional
 
 - (void)paginationController:(SSPPaginationController *)paginationController didCancelFetchOperation:(NSOperation *)operation;
+- (void)paginationController:(SSPPaginationController *)paginationController didRemoveItemsInRange:(NSRange)range;
+- (void)paginationController:(SSPPaginationController *)paginationController didAddItemsInRange:(NSRange)range;
 
 @end
