@@ -8,6 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol SSPPaginationFetchOperation <NSObject>
+
+- (void)cancel;
+
+@end
+
+
+@interface NSOperation () <SSPPaginationFetchOperation>
+
+@end
+
+@interface NSURLSessionTask () <SSPPaginationFetchOperation>
+
+@end
+
 extern const NSInteger SSPPaginationControllerDefaultLimit;
 
 @protocol SSPPaginationControllerDelegate;
@@ -36,7 +51,7 @@ extern const NSInteger SSPPaginationControllerDefaultLimit;
 
 @required
 
-- (NSOperation *)paginationController:(SSPPaginationController *)paginationController
+- (id<SSPPaginationFetchOperation>)paginationController:(SSPPaginationController *)paginationController
              fetchOperationWithOffset:(NSInteger)offset
                                 limit:(NSInteger)limit;
 

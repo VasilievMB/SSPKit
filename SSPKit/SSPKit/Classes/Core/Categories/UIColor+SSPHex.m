@@ -13,7 +13,7 @@
 + (instancetype)ssp_colorWithHexString:(NSString *)hexString {
     hexString = [hexString stringByReplacingOccurrencesOfString:@"#" withString:@""];
     NSScanner *scanner = [NSScanner scannerWithString:hexString];
-    UInt32 hex;
+    unsigned hex;
     if ([scanner scanHexInt:&hex]) {
         return [self ssp_colorWithHex:hex];
     } else {

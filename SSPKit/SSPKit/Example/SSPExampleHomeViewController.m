@@ -76,7 +76,7 @@
                                                          sourceType:UIImagePickerControllerSourceTypeCamera
                                                          completion:^(UIImagePickerController *picker, NSDictionary *info) {
                                                              UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
-                                                             
+                                                             NSLog(@"image: %@", image);
                                                          } failure:^{
                                                              NSLog(@"Failed to pick photo");
                                                          }];

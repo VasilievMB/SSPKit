@@ -13,7 +13,7 @@ const NSInteger SSPPaginationControllerDefaultLimit = 20;
 @interface SSPPaginationController ()
 
 @property (strong, nonatomic) NSMutableArray *items;
-@property (strong, nonatomic) NSOperation *fetchOperation;
+@property (strong, nonatomic) id<SSPPaginationFetchOperation> fetchOperation;
 @property (nonatomic) BOOL shouldFetchMore;
 
 @end
@@ -66,7 +66,7 @@ const NSInteger SSPPaginationControllerDefaultLimit = 20;
 
 - (void)cancelFetching {
     [self.fetchOperation cancel];
-    NSOperation *operation = self.fetchOperation;
+    id<SSPPaginationFetchOperation> operation = self.fetchOperation;
     self.fetchOperation = nil;
     
     if ([self.delegate respondsToSelector:@selector(paginationController:didCancelFetchOperation:)]) {
