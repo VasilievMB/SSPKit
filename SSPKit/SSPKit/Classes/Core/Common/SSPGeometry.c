@@ -84,7 +84,7 @@ CGFloat CGPointLengthSquared(CGPoint p) {
 }
 
 CGFloat CGPointLength(CGPoint p) {
-    return sqrt(CGPointLength(p));
+    return sqrt(CGPointLengthSquared(p));
 }
 
 CGFloat CGPointDistance(CGPoint p0, CGPoint p1) {
