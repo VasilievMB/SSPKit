@@ -21,30 +21,30 @@
 		5C2075241B7DE3E700F6278E /* SSPParsingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075231B7DE3E700F6278E /* SSPParsingTest.m */; };
 		5C2075261B7DEA6B00F6278E /* SSPPlistTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075251B7DEA6B00F6278E /* SSPPlistTest.m */; };
 		5C2075281B7DEA9600F6278E /* TestObjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C2075271B7DEA9600F6278E /* TestObjects.plist */; };
-		74BE4B601BEE3D3F00A097FF /* SSPExampleHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B5F1BEE3D3F00A097FF /* SSPExampleHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		74BE4B601BEE3D3F00A097FF /* SSPExampleHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B5F1BEE3D3F00A097FF /* SSPExampleHomeViewController.m */; };
 		74BE4B661BEE55FD00A097FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BE4B651BEE55FD00A097FF /* AVFoundation.framework */; };
-		74BE4B981BEE635800A097FF /* NSArray+SSPShuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B6A1BEE635800A097FF /* NSArray+SSPShuffle.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4B9A1BEE635800A097FF /* NSDictionary+SSPParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B6E1BEE635800A097FF /* NSDictionary+SSPParsing.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4B9B1BEE635800A097FF /* NSMutableArray+SSPShuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B701BEE635800A097FF /* NSMutableArray+SSPShuffle.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4B9C1BEE635800A097FF /* NSObject+SSPDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B721BEE635800A097FF /* NSObject+SSPDictionary.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4B9D1BEE635800A097FF /* NSObject+SSPPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B741BEE635800A097FF /* NSObject+SSPPlist.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4B9E1BEE635800A097FF /* NSString+SSPHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B761BEE635800A097FF /* NSString+SSPHash.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4B9F1BEE635800A097FF /* NSString+SSPUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B781BEE635800A097FF /* NSString+SSPUUID.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BA01BEE635800A097FF /* UIColor+SSPHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B7A1BEE635800A097FF /* UIColor+SSPHex.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BA11BEE635800A097FF /* UIImage+SSPRenderInContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B7C1BEE635800A097FF /* UIImage+SSPRenderInContext.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BA21BEE635800A097FF /* UIImage+SSPResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B7E1BEE635800A097FF /* UIImage+SSPResize.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BA31BEE635800A097FF /* UITableViewCell+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B801BEE635800A097FF /* UITableViewCell+SSPKit.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BA41BEE635800A097FF /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B821BEE635800A097FF /* UIView+Animation.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BA51BEE635800A097FF /* UIView+SSPImageRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B841BEE635800A097FF /* UIView+SSPImageRepresentation.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BA61BEE635800A097FF /* UIView+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B861BEE635800A097FF /* UIView+SSPKit.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BA71BEE635800A097FF /* UIViewController+SSPStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B881BEE635800A097FF /* UIViewController+SSPStoryboard.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BA81BEE635800A097FF /* SSPGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B8A1BEE635800A097FF /* SSPGeometry.c */; settings = {ASSET_TAGS = (); }; };
-		74BE4BAA1BEE635800A097FF /* SSPGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B951BEE635800A097FF /* SSPGradientView.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BAB1BEE635800A097FF /* SSPNibContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B971BEE635800A097FF /* SSPNibContainerView.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BAF1BEE63E700A097FF /* SSPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BAE1BEE63E700A097FF /* SSPImagePickerController.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BB31BEE647800A097FF /* SSPPaginationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BB21BEE647800A097FF /* SSPPaginationController.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BB61BEE6DC900A097FF /* SSPPaginationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BB51BEE6DC900A097FF /* SSPPaginationViewController.m */; settings = {ASSET_TAGS = (); }; };
-		74BE4BB91BEE6F9600A097FF /* SSPPaginationExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BB81BEE6F9600A097FF /* SSPPaginationExampleViewController.m */; settings = {ASSET_TAGS = (); }; };
+		74BE4B981BEE635800A097FF /* NSArray+SSPShuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B6A1BEE635800A097FF /* NSArray+SSPShuffle.m */; };
+		74BE4B9A1BEE635800A097FF /* NSDictionary+SSPParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B6E1BEE635800A097FF /* NSDictionary+SSPParsing.m */; };
+		74BE4B9B1BEE635800A097FF /* NSMutableArray+SSPShuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B701BEE635800A097FF /* NSMutableArray+SSPShuffle.m */; };
+		74BE4B9C1BEE635800A097FF /* NSObject+SSPDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B721BEE635800A097FF /* NSObject+SSPDictionary.m */; };
+		74BE4B9D1BEE635800A097FF /* NSObject+SSPPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B741BEE635800A097FF /* NSObject+SSPPlist.m */; };
+		74BE4B9E1BEE635800A097FF /* NSString+SSPHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B761BEE635800A097FF /* NSString+SSPHash.m */; };
+		74BE4B9F1BEE635800A097FF /* NSString+SSPUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B781BEE635800A097FF /* NSString+SSPUUID.m */; };
+		74BE4BA01BEE635800A097FF /* UIColor+SSPHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B7A1BEE635800A097FF /* UIColor+SSPHex.m */; };
+		74BE4BA11BEE635800A097FF /* UIImage+SSPRenderInContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B7C1BEE635800A097FF /* UIImage+SSPRenderInContext.m */; };
+		74BE4BA21BEE635800A097FF /* UIImage+SSPResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B7E1BEE635800A097FF /* UIImage+SSPResize.m */; };
+		74BE4BA31BEE635800A097FF /* UITableViewCell+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B801BEE635800A097FF /* UITableViewCell+SSPKit.m */; };
+		74BE4BA41BEE635800A097FF /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B821BEE635800A097FF /* UIView+Animation.m */; };
+		74BE4BA51BEE635800A097FF /* UIView+SSPImageRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B841BEE635800A097FF /* UIView+SSPImageRepresentation.m */; };
+		74BE4BA61BEE635800A097FF /* UIView+SSPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B861BEE635800A097FF /* UIView+SSPKit.m */; };
+		74BE4BA71BEE635800A097FF /* UIViewController+SSPStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B881BEE635800A097FF /* UIViewController+SSPStoryboard.m */; };
+		74BE4BA81BEE635800A097FF /* SSPGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B8A1BEE635800A097FF /* SSPGeometry.c */; };
+		74BE4BAA1BEE635800A097FF /* SSPGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B951BEE635800A097FF /* SSPGradientView.m */; };
+		74BE4BAB1BEE635800A097FF /* SSPNibContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B971BEE635800A097FF /* SSPNibContainerView.m */; };
+		74BE4BAF1BEE63E700A097FF /* SSPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BAE1BEE63E700A097FF /* SSPImagePickerController.m */; };
+		74BE4BB31BEE647800A097FF /* SSPPaginationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BB21BEE647800A097FF /* SSPPaginationController.m */; };
+		74BE4BB61BEE6DC900A097FF /* SSPPaginationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BB51BEE6DC900A097FF /* SSPPaginationViewController.m */; };
+		74BE4BB91BEE6F9600A097FF /* SSPPaginationExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4BB81BEE6F9600A097FF /* SSPPaginationExampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,6 +216,7 @@
 				74BE4B671BEE635800A097FF /* Core */,
 				74BE4BAC1BEE63E700A097FF /* ImagePicker */,
 				74BE4BB01BEE646100A097FF /* Pagination */,
+				741E81C91C8AE6F1007BCFAF /* Mapping */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -239,6 +240,14 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		741E81C91C8AE6F1007BCFAF /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mapping;
+			path = SSPKit/Classes/Mapping;
+			sourceTree = SOURCE_ROOT;
 		};
 		74BE4B5D1BEE3D1000A097FF /* Example */ = {
 			isa = PBXGroup;
@@ -394,7 +403,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SSP;
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Softinform;
 				TargetAttributes = {
 					5C2075171B7DE1D100F6278E = {
@@ -519,6 +528,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -566,6 +576,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSPKit/SSPKit-Prefix.pch";
 				INFOPLIST_FILE = "SSPKit/SSPKit-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sspsoft.dev.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -577,6 +588,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSPKit/SSPKit-Prefix.pch";
 				INFOPLIST_FILE = "SSPKit/SSPKit-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sspsoft.dev.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -614,6 +626,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSPKit.app/SSPKit";
 			};
@@ -649,6 +662,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSPKit.app/SSPKit";
 			};
