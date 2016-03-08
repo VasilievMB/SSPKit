@@ -21,6 +21,14 @@
 		5C2075241B7DE3E700F6278E /* SSPParsingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075231B7DE3E700F6278E /* SSPParsingTest.m */; };
 		5C2075261B7DEA6B00F6278E /* SSPPlistTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2075251B7DEA6B00F6278E /* SSPPlistTest.m */; };
 		5C2075281B7DEA9600F6278E /* TestObjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C2075271B7DEA9600F6278E /* TestObjects.plist */; };
+		741E82861C8C872E007BCFAF /* SSPObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E82851C8C872E007BCFAF /* SSPObjectMapper.m */; };
+		741E82891C8C8953007BCFAF /* SSPPropertyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E82881C8C8953007BCFAF /* SSPPropertyMapping.m */; };
+		741E828D1C8DC052007BCFAF /* SSPValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E828C1C8DC052007BCFAF /* SSPValueTransformer.m */; };
+		741E82901C8DC284007BCFAF /* SSPURLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E828F1C8DC284007BCFAF /* SSPURLValueTransformer.m */; };
+		741E82931C8DC3D0007BCFAF /* SSPDateValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E82921C8DC3D0007BCFAF /* SSPDateValueTransformer.m */; };
+		741E82951C8DC941007BCFAF /* SSPMappingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E82941C8DC941007BCFAF /* SSPMappingTest.m */; };
+		741E82981C8EDE8A007BCFAF /* SSPObjectMapperValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E82971C8EDE8A007BCFAF /* SSPObjectMapperValueTransformer.m */; };
+		741E829B1C8EEEBB007BCFAF /* SSPUnixTimeValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E829A1C8EEEBB007BCFAF /* SSPUnixTimeValueTransformer.m */; };
 		74BE4B601BEE3D3F00A097FF /* SSPExampleHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B5F1BEE3D3F00A097FF /* SSPExampleHomeViewController.m */; };
 		74BE4B661BEE55FD00A097FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BE4B651BEE55FD00A097FF /* AVFoundation.framework */; };
 		74BE4B981BEE635800A097FF /* NSArray+SSPShuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE4B6A1BEE635800A097FF /* NSArray+SSPShuffle.m */; };
@@ -78,6 +86,21 @@
 		5C2075231B7DE3E700F6278E /* SSPParsingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPParsingTest.m; sourceTree = "<group>"; };
 		5C2075251B7DEA6B00F6278E /* SSPPlistTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPlistTest.m; sourceTree = "<group>"; };
 		5C2075271B7DEA9600F6278E /* TestObjects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestObjects.plist; sourceTree = "<group>"; };
+		741E82841C8C872E007BCFAF /* SSPObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPObjectMapper.h; sourceTree = "<group>"; };
+		741E82851C8C872E007BCFAF /* SSPObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPObjectMapper.m; sourceTree = "<group>"; };
+		741E82871C8C8953007BCFAF /* SSPPropertyMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPPropertyMapping.h; sourceTree = "<group>"; };
+		741E82881C8C8953007BCFAF /* SSPPropertyMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPropertyMapping.m; sourceTree = "<group>"; };
+		741E828B1C8DC052007BCFAF /* SSPValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPValueTransformer.h; sourceTree = "<group>"; };
+		741E828C1C8DC052007BCFAF /* SSPValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPValueTransformer.m; sourceTree = "<group>"; };
+		741E828E1C8DC284007BCFAF /* SSPURLValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPURLValueTransformer.h; sourceTree = "<group>"; };
+		741E828F1C8DC284007BCFAF /* SSPURLValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPURLValueTransformer.m; sourceTree = "<group>"; };
+		741E82911C8DC3D0007BCFAF /* SSPDateValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPDateValueTransformer.h; sourceTree = "<group>"; };
+		741E82921C8DC3D0007BCFAF /* SSPDateValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPDateValueTransformer.m; sourceTree = "<group>"; };
+		741E82941C8DC941007BCFAF /* SSPMappingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPMappingTest.m; sourceTree = "<group>"; };
+		741E82961C8EDE8A007BCFAF /* SSPObjectMapperValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPObjectMapperValueTransformer.h; sourceTree = "<group>"; };
+		741E82971C8EDE8A007BCFAF /* SSPObjectMapperValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPObjectMapperValueTransformer.m; sourceTree = "<group>"; };
+		741E82991C8EEEBB007BCFAF /* SSPUnixTimeValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPUnixTimeValueTransformer.h; sourceTree = "<group>"; };
+		741E829A1C8EEEBB007BCFAF /* SSPUnixTimeValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPUnixTimeValueTransformer.m; sourceTree = "<group>"; };
 		74BE4B5E1BEE3D3F00A097FF /* SSPExampleHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPExampleHomeViewController.h; sourceTree = "<group>"; };
 		74BE4B5F1BEE3D3F00A097FF /* SSPExampleHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPExampleHomeViewController.m; sourceTree = "<group>"; };
 		74BE4B651BEE55FD00A097FF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -227,6 +250,7 @@
 				5C20751C1B7DE1D100F6278E /* SSPKit_Tests.m */,
 				5C2075231B7DE3E700F6278E /* SSPParsingTest.m */,
 				5C2075251B7DEA6B00F6278E /* SSPPlistTest.m */,
+				741E82941C8DC941007BCFAF /* SSPMappingTest.m */,
 				5C2075271B7DEA9600F6278E /* TestObjects.plist */,
 				5C20751A1B7DE1D100F6278E /* Supporting Files */,
 			);
@@ -244,10 +268,32 @@
 		741E81C91C8AE6F1007BCFAF /* Mapping */ = {
 			isa = PBXGroup;
 			children = (
+				741E82841C8C872E007BCFAF /* SSPObjectMapper.h */,
+				741E82851C8C872E007BCFAF /* SSPObjectMapper.m */,
+				741E82871C8C8953007BCFAF /* SSPPropertyMapping.h */,
+				741E82881C8C8953007BCFAF /* SSPPropertyMapping.m */,
+				741E828A1C8DBEB1007BCFAF /* ValueTransformers */,
 			);
 			name = Mapping;
 			path = SSPKit/Classes/Mapping;
 			sourceTree = SOURCE_ROOT;
+		};
+		741E828A1C8DBEB1007BCFAF /* ValueTransformers */ = {
+			isa = PBXGroup;
+			children = (
+				741E828B1C8DC052007BCFAF /* SSPValueTransformer.h */,
+				741E828C1C8DC052007BCFAF /* SSPValueTransformer.m */,
+				741E828E1C8DC284007BCFAF /* SSPURLValueTransformer.h */,
+				741E828F1C8DC284007BCFAF /* SSPURLValueTransformer.m */,
+				741E82911C8DC3D0007BCFAF /* SSPDateValueTransformer.h */,
+				741E82921C8DC3D0007BCFAF /* SSPDateValueTransformer.m */,
+				741E82961C8EDE8A007BCFAF /* SSPObjectMapperValueTransformer.h */,
+				741E82971C8EDE8A007BCFAF /* SSPObjectMapperValueTransformer.m */,
+				741E82991C8EEEBB007BCFAF /* SSPUnixTimeValueTransformer.h */,
+				741E829A1C8EEEBB007BCFAF /* SSPUnixTimeValueTransformer.m */,
+			);
+			path = ValueTransformers;
+			sourceTree = "<group>";
 		};
 		74BE4B5D1BEE3D1000A097FF /* Example */ = {
 			isa = PBXGroup;
@@ -458,8 +504,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				74BE4BA81BEE635800A097FF /* SSPGeometry.c in Sources */,
+				741E82901C8DC284007BCFAF /* SSPURLValueTransformer.m in Sources */,
 				74BE4B9A1BEE635800A097FF /* NSDictionary+SSPParsing.m in Sources */,
+				741E82981C8EDE8A007BCFAF /* SSPObjectMapperValueTransformer.m in Sources */,
 				74BE4BA41BEE635800A097FF /* UIView+Animation.m in Sources */,
+				741E82931C8DC3D0007BCFAF /* SSPDateValueTransformer.m in Sources */,
 				74BE4B9D1BEE635800A097FF /* NSObject+SSPPlist.m in Sources */,
 				74BE4BA01BEE635800A097FF /* UIColor+SSPHex.m in Sources */,
 				74BE4B9F1BEE635800A097FF /* NSString+SSPUUID.m in Sources */,
@@ -471,6 +520,7 @@
 				74BE4BA71BEE635800A097FF /* UIViewController+SSPStoryboard.m in Sources */,
 				74BE4B9B1BEE635800A097FF /* NSMutableArray+SSPShuffle.m in Sources */,
 				74BE4B9C1BEE635800A097FF /* NSObject+SSPDictionary.m in Sources */,
+				741E829B1C8EEEBB007BCFAF /* SSPUnixTimeValueTransformer.m in Sources */,
 				74BE4BA61BEE635800A097FF /* UIView+SSPKit.m in Sources */,
 				74BE4BA51BEE635800A097FF /* UIView+SSPImageRepresentation.m in Sources */,
 				3F58CF961738FAFA00AF7A1D /* main.m in Sources */,
@@ -479,6 +529,9 @@
 				74BE4BA31BEE635800A097FF /* UITableViewCell+SSPKit.m in Sources */,
 				74BE4B981BEE635800A097FF /* NSArray+SSPShuffle.m in Sources */,
 				3F58CF9A1738FAFA00AF7A1D /* SSPAppDelegate.m in Sources */,
+				741E828D1C8DC052007BCFAF /* SSPValueTransformer.m in Sources */,
+				741E82891C8C8953007BCFAF /* SSPPropertyMapping.m in Sources */,
+				741E82861C8C872E007BCFAF /* SSPObjectMapper.m in Sources */,
 				74BE4B601BEE3D3F00A097FF /* SSPExampleHomeViewController.m in Sources */,
 				74BE4BAA1BEE635800A097FF /* SSPGradientView.m in Sources */,
 				74BE4BB91BEE6F9600A097FF /* SSPPaginationExampleViewController.m in Sources */,
@@ -490,6 +543,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C20751D1B7DE1D100F6278E /* SSPKit_Tests.m in Sources */,
+				741E82951C8DC941007BCFAF /* SSPMappingTest.m in Sources */,
 				5C2075241B7DE3E700F6278E /* SSPParsingTest.m in Sources */,
 				5C2075261B7DEA6B00F6278E /* SSPPlistTest.m in Sources */,
 			);
