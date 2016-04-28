@@ -21,13 +21,13 @@
 }
 
 - (UIImage *)ssp_imageFittingSize:(CGSize)size {
-    return [self ssp_imageWithSize:CGSizeAspectFitSize(self.size, size)];
+    return [self ssp_imageWithSize:sspCGSizeAspectFitSize(self.size, size)];
 }
 
 - (UIImage *)ssp_imageFillingSize:(CGSize)size {
-    CGRect imageRect = CGRectMakeWithSize(self.size);
-    CGRect canvasRect = CGRectMakeWithSize(size);
-    imageRect = CGRectAspectFillRect(imageRect, canvasRect);
+    CGRect imageRect = sspCGRectMakeWithSize(self.size);
+    CGRect canvasRect = sspCGRectMakeWithSize(size);
+    imageRect = sspCGRectAspectFillRect(imageRect, canvasRect);
     return [[self class] ssp_imageWithSize:canvasRect.size opaque:NO scale:self.scale draw:^(CGContextRef ctx) {
         [self drawInRect:imageRect];
     }];

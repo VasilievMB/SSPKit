@@ -8,8 +8,6 @@
 
 #import "UIView+Animation.h"
 
-const double kAnimationDuration = 0.2;
-
 @implementation UIView (SSPVisibilityAnimation)
 
 - (void)ssp_showAnimated:(BOOL)animated{

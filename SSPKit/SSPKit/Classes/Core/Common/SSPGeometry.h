@@ -12,29 +12,29 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <math.h>
 
-CGPoint CGPointScale(CGPoint point, CGFloat scale);
-CGSize CGSizeScale(CGSize size, CGFloat scale);
-CGRect CGRectScale(CGRect rect, CGFloat scale);
+CGPoint sspCGPointScale(CGPoint point, CGFloat scale);
+CGSize sspCGSizeScale(CGSize size, CGFloat scale);
+CGRect sspCGRectScale(CGRect rect, CGFloat scale);
 
-CGPoint CGRectCenter(CGRect rect);
-CGRect CGRectCenterToRect(CGRect rect0, CGRect rect1);
-CGRect CGRectRound(CGRect rect);
+CGPoint sspCGRectCenter(CGRect rect);
+CGRect sspCGRectCenterToRect(CGRect rect0, CGRect rect1);
+CGRect sspCGRectRound(CGRect rect);
 
-CGSize CGSizeAspectFitSize(CGSize size, CGSize containerSize);
-CGSize CGSizeAspectFillSize(CGSize size, CGSize containerSize);
+CGSize sspCGSizeAspectFitSize(CGSize size, CGSize containerSize);
+CGSize sspCGSizeAspectFillSize(CGSize size, CGSize containerSize);
 
-CGRect CGRectAspectFitRect(CGRect rect, CGRect containerRect);
-CGRect CGRectAspectFillRect(CGRect rect, CGRect containerRect);
+CGRect sspCGRectAspectFitRect(CGRect rect, CGRect containerRect);
+CGRect sspCGRectAspectFillRect(CGRect rect, CGRect containerRect);
 
-CGRect CGRectMakeWithSize(CGSize size);
+CGRect sspCGRectMakeWithSize(CGSize size);
 
-CGFloat CGPointDotProduct(CGPoint p0, CGPoint p1);
-CGPoint CGPointAdd(CGPoint p0, CGPoint p1);
-CGPoint CGPointSubtract(CGPoint p0, CGPoint p1);
-CGFloat CGPointLengthSquared(CGPoint p);
-CGFloat CGPointLength(CGPoint p);
-CGFloat CGPointDistance(CGPoint p0, CGPoint p1);
-CGFloat CGPointDistanceSquared(CGPoint p0, CGPoint p1);
-CGPoint CGPointNegate(CGPoint p);
+CGFloat sspCGPointDotProduct(CGPoint p0, CGPoint p1);
+CGPoint sspCGPointAdd(CGPoint p0, CGPoint p1);
+CGPoint sspCGPointSubtract(CGPoint p0, CGPoint p1);
+CGFloat sspCGPointLengthSquared(CGPoint p);
+CGFloat sspCGPointLength(CGPoint p);
+CGFloat sspCGPointDistance(CGPoint p0, CGPoint p1);
+CGFloat sspCGPointDistanceSquared(CGPoint p0, CGPoint p1);
+CGPoint sspCGPointNegate(CGPoint p);
 
 #endif /* defined(__SSPKit__SSPGeometry__) */
